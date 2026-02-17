@@ -1,142 +1,991 @@
 import { Broker } from "../types/broker";
 
 export const brokers: Broker[] = [
+  // ═══════════════════════════════════════════════════════
+  // 1. CAPITAL.COM
+  // ═══════════════════════════════════════════════════════
+  {
+    slug: "capital-com",
+    name: "Capital.com",
+    shortDescription: "FCA-regulated CFD and spread betting broker with an intuitive platform suited to beginners and cost-conscious traders.",
+    longDescription: "Capital.com is a multi-asset CFD and spread betting broker regulated in the UK by the FCA. It offers forex, indices, commodities and share CFDs via an intuitive platform with strong educational resources and commission-free pricing.",
+    availabilityCountries: ["UK", "EU"],
+    regulators: ["FCA", "CySEC", "ASIC"],
+    instruments: ["forex", "indices", "commodities", "stocks"],
+    products: ["CFDs", "spread betting"],
+    platforms: ["Web", "Mobile"],
+    feeModel: "spread-only",
+    minDeposit: "£20",
+    pros: [
+      "FCA-regulated with segregated client funds and potential FSCS protection",
+      "Commission-free trading with competitive spreads",
+      "Intuitive platform with strong educational resources",
+      "Fast account setup and smooth onboarding",
+    ],
+    cons: [
+      "No direct share ownership — CFD and spread betting only",
+      "Limited advanced or institutional-grade tools",
+      "Some mixed feedback on withdrawal process transparency",
+    ],
+    bestForTags: ["beginners", "regulated", "low-fees"],
+    riskNotes: [
+      "CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage.",
+      "Spread widening can occur in volatile markets.",
+      "Financing costs apply on leveraged positions held overnight.",
+    ],
+    lastUpdated: "2026-01-15",
+    affiliate: {
+      primaryCtaText: "Trade with Capital.com",
+      affiliateUrl: "https://example.com/capital-com",
+    },
+    review: {
+      verdict: {
+        bestFor: [
+          "Beginners and casual traders — intuitive interface and simple onboarding.",
+          "CFD & spread betting traders — wide asset range to trade on a single platform.",
+        ],
+        notIdealFor: [
+          "Traders needing extensive non-CFD investing (e.g., direct stock ownership).",
+          "Those prioritising advanced institutional tools over simplicity.",
+        ],
+      },
+      whoFor: [
+        "New to online trading and want a platform that's easy to navigate.",
+        "CFD, spread betting or forex traders seeking a low-friction experience.",
+        "Cost-conscious users who prefer commission-free trading with competitive spreads.",
+        "Those who want trusted regulation and safety protections under the FCA.",
+      ],
+      evaluationCriteria: [
+        "Regulation & safety — FCA authorisation and client fund protections.",
+        "Trading costs — spreads, commissions, financing, and fees.",
+        "Platform usability — web, mobile, and research tools.",
+        "Asset range — markets available for trading.",
+        "Customer feedback — real user experiences (e.g. Trustpilot).",
+        "Account features — demo, onboarding, deposits, and withdrawals.",
+      ],
+      overview: "Capital.com is a multi-asset CFD and spread betting broker regulated in the UK. It offers a mix of forex, indices, commodities, and share CFDs via an intuitive platform.",
+      strengths: [
+        "FCA-regulated and globally authorised.",
+        "Simple platform with strong educational resources.",
+        "Competitive pricing with commission-free core trading.",
+        "Generally positive user feedback on onboarding and support.",
+      ],
+      limitations: [
+        "Not suitable for direct investing (non-CFD assets).",
+        "Some mixed customer experiences on support and withdrawals reported.",
+        "Product range is narrower compared to full brokerage houses.",
+      ],
+      regulation: "Capital.com is authorised and regulated by the Financial Conduct Authority (FCA) in the UK. FCA oversight requires client funds to be held in segregated accounts, AML controls, and financial reporting standards. The broker also holds licences from other regulators (CySEC, ASIC) for non-UK clients. UK retail users may also benefit from FSCS protection on eligible balances as regulated by the FCA.",
+      whenToAvoid: "If you want a broker without FCA restrictions (e.g., for exotic products or outside UK regulation).",
+      platforms: "Capital.com offers a web-based trading platform with charting, watchlists and alerts. Mobile apps for iOS and Android mirror web functionality. Built-in educational resources and market insights are included. User feedback indicates the platform is intuitive, especially for new traders, and supports a smooth onboarding flow. Advanced traders seeking deep analytical toolsets (like institutional-grade platforms) may find the feature set basic compared with MetaTrader or proprietary professional platforms.",
+      costs: "Capital.com typically offers commission-free trading, earning from the spread on CFD instruments rather than direct commissions. Spreads are competitive on core forex and index CFDs. No commissions on standard accounts for most products. Financing costs are applied on leveraged positions held overnight (standard CFD practice). As with all CFD providers, funding costs and spreads can vary by instrument and market conditions.",
+      assetCoverage: "Forex pairs, indices, commodities, and cash equity CFDs. Some reviews note the absence of direct stock ownership or broader investment products, which means Capital.com is primarily suited to CFD and spread betting strategies rather than traditional investing.",
+      customerFeedback: "Positive themes from Trustpilot include fast account setup and easy funding, intuitive mobile and web interfaces, and strong customer support responses in many cases. Negative feedback occasionally mentions withdrawal delays or process transparency issues and mixed support responses in specific cases. Overall, user reviews on Trustpilot sit at around 4.5 stars with a large sample size (≈14,000+ reviews), indicating generally high satisfaction with many aspects of the service.",
+      costComparison: "Capital.com's commission-free model simplifies cost understanding. Spreads are competitive on core instruments. CFDs carry financing costs for leveraged positions held overnight. Spread widening can occur in volatile markets. Leverage increases loss potential — retail CFD trading inherently carries high risk.",
+      risks: [
+        "CFDs carry financing costs for leveraged positions held overnight.",
+        "Spread widening can occur in volatile markets.",
+        "Leverage increases loss potential — retail CFD trading inherently carries high risk.",
+      ],
+      faq: [
+        { question: "Is Capital.com regulated in the UK?", answer: "Yes — it is authorised and regulated by the UK's FCA." },
+        { question: "Can UK users trade CFDs and spread bet?", answer: "Yes, both CFDs and spread betting are available on eligible instruments." },
+        { question: "Are there commissions on trades?", answer: "Most core trades are commission-free; Capital.com earns mainly from spreads." },
+        { question: "Is the platform suitable for beginners?", answer: "Many users report it is intuitive and easy to learn." },
+        { question: "Are deposit and withdrawal processes smooth?", answer: "Generally positive reports exist, but isolated feedback notes occasional delays." },
+      ],
+      methodology: "This review is based on third-party data sources, user review platforms (e.g. Trustpilot), and industry review sites. It is not financial advice. The broker may feature in affiliate programmes, but that has no bearing on evaluation criteria or impartiality.",
+    },
+  },
+
+  // ═══════════════════════════════════════════════════════
+  // 2. PEPPERSTONE
+  // ═══════════════════════════════════════════════════════
+  {
+    slug: "pepperstone",
+    name: "Pepperstone",
+    shortDescription: "Execution-focused CFD and forex broker with tight raw spreads, MT4/MT5/cTrader access and FCA regulation.",
+    longDescription: "Pepperstone is an execution-focused CFD and forex broker known for tight spreads and professional trading platforms. The FCA-regulated UK entity offers Standard and Razor account types with MT4, MT5 and cTrader support.",
+    availabilityCountries: ["UK", "EU"],
+    regulators: ["FCA"],
+    instruments: ["forex", "indices", "commodities", "stocks", "crypto"],
+    products: ["CFDs"],
+    platforms: ["MT4", "MT5"],
+    feeModel: "commission+spread",
+    minDeposit: "£200",
+    pros: [
+      "FCA-regulated with segregated client funds and negative balance protection",
+      "Razor account with low raw spreads for active traders",
+      "MT4, MT5 and cTrader platform support",
+      "Suitable for algorithmic and scalping strategies",
+    ],
+    cons: [
+      "Primarily CFD-focused — no traditional investing or share ownership",
+      "No proprietary beginner-style simplified platform",
+      "Financing costs apply to overnight leveraged positions",
+    ],
+    bestForTags: ["advanced", "low-fees"],
+    riskNotes: [
+      "Leverage increases potential losses as well as gains.",
+      "Financing charges accumulate on swing positions held overnight.",
+      "Spread widening can occur during news events or low liquidity.",
+    ],
+    lastUpdated: "2026-01-15",
+    affiliate: {
+      primaryCtaText: "Trade with Pepperstone",
+      affiliateUrl: "https://example.com/pepperstone",
+    },
+    review: {
+      verdict: {
+        bestFor: [
+          "Active forex and CFD traders who prioritise tight spreads and platform flexibility.",
+          "Beginners willing to use MetaTrader or cTrader and learn proper execution tools.",
+          "Algorithmic, scalping, and short-term traders who need low spreads and fast execution.",
+        ],
+        notIdealFor: [
+          "Long-term investors looking for direct share ownership or broad investment products.",
+        ],
+      },
+      whoFor: [
+        "Trade forex or indices actively.",
+        "Care about spread + commission structure.",
+        "Want MT4, MT5 or cTrader access.",
+        "Compare execution quality between brokers.",
+        "Prioritise FCA regulation and risk protection.",
+      ],
+      evaluationCriteria: [
+        "Regulation & safety (FCA oversight).",
+        "Pricing model (spread + commission accounts).",
+        "Execution quality.",
+        "Platform flexibility.",
+        "Financing costs.",
+        "Client feedback consistency.",
+        "Suitability by trader type.",
+      ],
+      overview: "Pepperstone is an execution-focused CFD and forex broker known for tight spreads and professional trading platforms.",
+      strengths: [
+        "FCA regulated (UK entity).",
+        "Razor account with low raw spreads.",
+        "MT4, MT5 and cTrader availability.",
+        "Suitable for algorithmic and scalping strategies.",
+      ],
+      limitations: [
+        "Primarily CFD-focused (no traditional investing).",
+        "Financing costs apply to overnight leveraged positions.",
+        "Platform may feel technical for complete beginners.",
+      ],
+      regulation: "Pepperstone Limited is authorised and regulated by the Financial Conduct Authority (FCA) in the UK. Client funds are held in segregated accounts. Retail leverage caps apply under ESMA rules. Negative balance protection for UK retail clients. Eligible clients may receive FSCS protection.",
+      whenToAvoid: "If you prefer offshore high-leverage environments outside UK restrictions.",
+      platforms: "Pepperstone supports MetaTrader 4 (MT4), MetaTrader 5 (MT5), cTrader, and TradingView integration (in some regions). This makes it particularly suitable for algorithmic trading, Expert Advisors (EAs), advanced charting users, and short-term traders. There is no proprietary beginner-style simplified platform like some competitors offer.",
+      costs: "Pepperstone offers two main account types. Standard Account: no commission, wider spreads (all-in pricing). Razor Account: raw spreads (often very tight on major FX pairs), commission per lot traded. For active traders, the Razor account typically provides more cost transparency. Other costs include overnight financing (swap) on leveraged positions, currency conversion fees where applicable, and inactivity fees may apply after extended dormant periods. Spread stability is generally strong during normal liquidity but can widen in volatile conditions.",
+      assetCoverage: "Pepperstone provides CFDs on forex pairs, indices, commodities, shares (CFDs), and cryptocurrencies (where permitted). It does not offer direct ownership of equities or ETFs.",
+      customerFeedback: "Pepperstone is commonly chosen by scalpers, day traders, algorithmic traders, and traders comparing spread efficiency across brokers. It is less focused on long-term investing, portfolio building, and passive strategies.",
+      costComparison: "Pepperstone's Razor account is structured around raw spread + commission. This can be more cost-efficient for higher-volume traders. Compared to spread-only brokers, you see clearer separation between spread and fee, costs can be lower in liquid markets, and commission makes cost calculation more transparent. However, for very small trade sizes, spread-only accounts may feel simpler.",
+      risks: [
+        "Leverage increases potential losses.",
+        "Financing charges accumulate on swing positions.",
+        "Spread widening can occur during news events.",
+        "Margin calls are possible during volatility.",
+      ],
+      faq: [
+        { question: "Is Pepperstone regulated in the UK?", answer: "Yes, the UK entity is authorised by the FCA." },
+        { question: "Is Pepperstone good for scalping?", answer: "It is widely used by short-term traders due to tight spreads and platform flexibility." },
+        { question: "Does Pepperstone offer MT5?", answer: "Yes, alongside MT4 and cTrader." },
+        { question: "Is Pepperstone suitable for beginners?", answer: "It can be, but platforms like MT4/MT5 require some learning." },
+        { question: "Are there commissions?", answer: "On Razor accounts, yes. Standard accounts are spread-only." },
+      ],
+      methodology: "This review considers regulation status, pricing structure, platform access, public user feedback patterns, and product coverage. Rankings are not influenced by commercial relationships. This is not financial advice.",
+    },
+  },
+
+  // ═══════════════════════════════════════════════════════
+  // 3. IG
+  // ═══════════════════════════════════════════════════════
   {
     slug: "ig",
     name: "IG",
-    shortDescription: "Established multi-asset broker with strong regulation.",
-    longDescription:
-      "IG is a long-established trading platform offering CFDs, spread betting, and access to global markets. It is known for its robust trading tools and regulatory oversight.",
+    shortDescription: "One of the UK's largest and longest-established brokers, offering CFDs, spread betting, shares, ETFs, ISA and SIPP under FCA regulation.",
+    longDescription: "IG is one of the UK's oldest and largest online brokers, regulated by the FCA, offering broad access to CFDs, spread betting, shares, ETFs and more with ISA, GIA and SIPP accounts under one ecosystem.",
+    availabilityCountries: ["UK", "EU"],
+    regulators: ["FCA"],
+    instruments: ["forex", "indices", "commodities", "stocks"],
+    products: ["CFDs", "spread betting", "shares", "ISA", "SIPP"],
+    platforms: ["Web", "Mobile", "MT4"],
+    feeModel: "spread-only",
+    minDeposit: "£250",
+    pros: [
+      "Broad market access — forex, indices, CFDs, shares, ETFs",
+      "FCA regulation with segregated client funds and potential FSCS protection",
+      "ISA, GIA and SIPP support for long-term investing alongside derivatives",
+      "Advanced platforms with charting, research tools and demo account",
+    ],
+    cons: [
+      "Customer service wait times and mixed support experiences reported",
+      "Costs for some products are not the lowest on the market",
+      "Platform complexity can feel overwhelming for absolute beginners",
+    ],
+    bestForTags: ["beginners", "regulated", "multi-asset"],
+    riskNotes: [
+      "CFDs and spread betting carry leverage risk and financing costs.",
+      "Different products attract different fee structures.",
+      "Platform complexity may challenge absolute beginners.",
+    ],
+    lastUpdated: "2026-01-15",
+    affiliate: {
+      primaryCtaText: "Trade with IG",
+      affiliateUrl: "https://example.com/ig",
+    },
+    review: {
+      verdict: {
+        bestFor: [
+          "Traders and investors who want a comprehensive, FCA-regulated multi-market platform with both trading and investing capabilities.",
+          "Beginners willing to use a structured platform with educational tools and a demo account.",
+          "Experienced traders who want wide markets, advanced charting and research tools.",
+        ],
+        notIdealFor: [
+          "Cost-sensitive traders who prefer ultra-low spread execution or brokers focused purely on passive investing.",
+        ],
+      },
+      whoFor: [
+        "Want to trade forex, CFDs, indices and spread betting under FCA regulation.",
+        "Are looking for a multi-asset broker with both trading and investing support.",
+        "Need ISA or pension (SIPP) investing alongside derivatives.",
+        "Appreciate research, education and mobile/web tooling.",
+        "Compare execution quality, fees and coverage when selecting a broker.",
+      ],
+      evaluationCriteria: [
+        "Regulation & safety (FCA).",
+        "Costs (spreads, commissions, financing).",
+        "Platform access and quality.",
+        "Asset range (CFDs, shares, ETFs, ISA/SIPP).",
+        "User feedback trends.",
+        "Suitability by trader/investor type.",
+      ],
+      overview: "IG is one of the UK's oldest and largest online brokers, regulated by the Financial Conduct Authority (FCA) and offering broad access to CFDs, spread betting, shares, ETFs, and more. It combines trading tools and longer-term investing features under one ecosystem.",
+      strengths: [
+        "Broad market access (forex, indices, CFDs, shares, ETFs).",
+        "FCA regulation and segregated client funds.",
+        "Structured learning resources and demo account.",
+        "Advanced platforms with charting and research tools.",
+        "ISA/GIA/SIPP support for investing use cases.",
+      ],
+      limitations: [
+        "Customer service wait times and mixed support experiences common in feedback.",
+        "Costs for some products are not the lowest on market.",
+        "Platform complexity can feel overwhelming for absolute beginners.",
+      ],
+      regulation: "IG is authorised and regulated by the Financial Conduct Authority (FCA) in the UK, meaning client funds must be held in segregated accounts and subject to strict governance. UK retail clients may benefit from FSCS protection (up to applicable limits on cash balances).",
+      whenToAvoid: "If you seek a non-FCA broker ecosystem that offers materially higher leverage than UK caps allow, IG's regulated structure will feel restrictive.",
+      platforms: "IG offers web and desktop platforms with advanced charting and order types, a mobile app for trading and managing positions on the go, a demo account with virtual funds for practice, and educational resources and market research to support learning. The platform suite is comprehensive, but some feedback notes a steeper learning curve, particularly when moving between trading and investing interfaces.",
+      costs: "Fees vary by product and account type. CFD/Spread betting: spreads are variable; forex spreads start from ~0.6 points on majors (indicative) but widen in certain conditions. Share dealing: commission rates of ~0.10%–0.35% apply on UK share trades. ISA custody fees: quarterly custody charges apply but may be waived with sufficient trading activity. FX conversion: standard fee ~0.7% on currency conversion for share dealing/ISA accounts. Advanced tools: premium charting (e.g., ProRealTime) may incur fees, sometimes refundable with activity. IG's cost structure is transparent, but traders focused purely on ultra-low spread execution might find cheaper alternatives.",
+      assetCoverage: "IG covers forex and CFDs on a wide range of instruments, spread betting (UK clients), shares and ETFs across global markets, and ISA, GIA, SIPP for longer-term investing. This breadth makes IG suitable for traders who also want investment accounts alongside leveraged products.",
+      customerFeedback: "Across thousands of Trustpilot reviews, IG tends to average around 3.9–4.0 out of 5 stars, with a mix of positive and negative experiences. Common positive themes: platform functionality and market depth, broad asset access. Common negative themes: long wait times for phone support, technical account issues requiring multiple contacts, occasional frustrations with specific fee structures and system interface.",
+      costComparison: "IG's pricing sits between low-spread execution brokers and full-service investment platforms. CFD pricing is built into spreads and financing; competitive but not always the very lowest. Investing execution has no commission on many online share trades; custody/quarterly fees can apply. Frequent traders may avoid custody fees via activity thresholds. Understanding your primary use (trading vs investing) influences whether IG's overall costs align with your strategy.",
+      risks: [
+        "CFDs and spread betting carry leverage risk and financing costs.",
+        "Platform complexity may challenge absolute beginners.",
+        "Customer support wait times have been raised repeatedly in reviews.",
+        "Different products attract different fee structures — clarity on which you use matters.",
+      ],
+      faq: [
+        { question: "Is IG regulated in the UK?", answer: "Yes — IG operates under FCA regulation with client fund segregation." },
+        { question: "Can I use IG for both trading and investing?", answer: "Yes — it supports derivatives trading and share dealing/ISA/SIPP investing." },
+        { question: "Does IG charge commissions on share trading?", answer: "Online share trading is typically commission-free; custody and conversion fees may apply." },
+        { question: "Is IG good for beginners?", answer: "It's usable for beginners, especially with educational resources, but platform depth may feel complex at first." },
+        { question: "Are customer reviews generally positive?", answer: "Reviews are mixed; many praise the platform and tools, while some note customer service challenges." },
+      ],
+      methodology: "This review aggregates public trust sources, official fee schedules, and expert commentary. It is neutral and not financial advice. IG may participate in affiliate programmes, but evaluations are not influenced by commercial arrangements.",
+    },
+  },
+
+  // ═══════════════════════════════════════════════════════
+  // 4. CMC MARKETS
+  // ═══════════════════════════════════════════════════════
+  {
+    slug: "cmc-markets",
+    name: "CMC Markets",
+    shortDescription: "FCA-regulated broker founded in 1989, known for powerful proprietary charting tools, thousands of CFD instruments and no minimum deposit.",
+    longDescription: "Founded in 1989 and headquartered in London, CMC Markets is a well-established FCA-regulated broker offering CFDs, forex, indices, commodities and spread betting with its proprietary 'Next Generation' platform.",
     availabilityCountries: ["UK", "EU"],
     regulators: ["FCA"],
     instruments: ["forex", "indices", "commodities", "stocks"],
     products: ["CFDs", "spread betting"],
     platforms: ["Web", "Mobile", "MT4"],
     feeModel: "spread-only",
-    minDeposit: "£250",
-    pros: ["Strong regulation", "Wide market access", "Good platform stability"],
-    cons: ["Higher spreads for small accounts"],
-    bestForTags: ["beginners", "regulated", "multi-asset"],
-    riskNotes: ["CFDs are complex instruments and come with a high risk of losing money."],
-    lastUpdated: "2025-01-15",
-    affiliate: {
-      primaryCtaText: "Trade with IG",
-      affiliateUrl: "https://example.com/ig"
-    }
-  },
-  {
-    slug: "cmarkets",
-    name: "CMC Markets",
-    shortDescription: "Low-cost broker with advanced charting tools.",
-    longDescription:
-      "CMC Markets provides access to thousands of instruments with competitive pricing and strong charting functionality.",
-    availabilityCountries: ["UK", "EU"],
-    regulators: ["FCA"],
-    instruments: ["forex", "indices", "commodities", "stocks"],
-    products: ["CFDs", "spread betting"],
-    platforms: ["Web", "Mobile"],
-    feeModel: "spread-only",
     minDeposit: "£0",
-    pros: ["Tight spreads", "Advanced charts"],
-    cons: ["Interface can feel complex"],
+    pros: [
+      "FCA regulation with segregated client funds and potential FSCS protection",
+      "Powerful 'Next Generation' platform with advanced charting and research",
+      "Broad coverage — thousands of CFD instruments",
+      "No minimum deposit requirement",
+    ],
+    cons: [
+      "Platform complexity may overwhelm beginners",
+      "Costs on share CFDs and overnight financing can be above cheaper alternatives",
+      "No direct ownership of real shares or ETFs via the CFD entity",
+    ],
     bestForTags: ["low-fees", "advanced"],
-    riskNotes: ["Trading leveraged products involves risk."],
-    lastUpdated: "2025-01-15",
+    riskNotes: [
+      "CFDs and spread betting involve leverage risk and can amplify losses.",
+      "Financing costs and overnight fees can accumulate on longer positions.",
+      "Market volatility can widen spreads and affect execution quality.",
+    ],
+    lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Visit CMC Markets",
-      affiliateUrl: "https://example.com/cmc"
-    }
+      affiliateUrl: "https://example.com/cmc",
+    },
+    review: {
+      verdict: {
+        bestFor: [
+          "Active forex, CFD and spread betting traders who want broad markets and professional-grade tools.",
+          "New traders willing to use a feature-rich proprietary platform and learn markets slowly.",
+          "Experienced technical analysts and intraday traders who need advanced charting and order types.",
+        ],
+        notIdealFor: [
+          "Investors seeking direct share ownership or a simple, low-complexity trading interface.",
+        ],
+      },
+      whoFor: [
+        "Trade CFDs, forex, indices or spread bets under FCA regulation.",
+        "Value advanced research tools and charting.",
+        "Plan to trade actively rather than purely invest.",
+        "Want access to multiple platform options.",
+        "Compare execution quality, fees, and platform power before choosing a broker.",
+      ],
+      evaluationCriteria: [
+        "Regulation & safety (FCA authorised in UK).",
+        "Costs (spread, commission & financing).",
+        "Platform and tooling strength.",
+        "Asset coverage and depth.",
+        "User-reported experience (Trustpilot and specialist reviews).",
+        "Suitability by trader type.",
+      ],
+      overview: "Founded in 1989 and headquartered in London, CMC Markets is a well-established and FCA-regulated broker offering CFDs, forex, indices, commodities and spread betting to UK clients. It also provides advanced proprietary and third-party platforms, widely regarded for research and charting capabilities.",
+      strengths: [
+        "FCA regulation and segregated client funds.",
+        "Broad product coverage — thousands of CFD instruments.",
+        "Powerful platforms and charting tools.",
+        "No minimum deposit requirement.",
+        "Competitive pricing on core markets.",
+      ],
+      limitations: [
+        "Platform complexity may overwhelm beginners.",
+        "Costs on some share CFDs and overnight financing can be above entry-level alternatives.",
+        "No direct ownership of real shares/ETFs in UK CFD accounts.",
+      ],
+      regulation: "CMC Markets UK plc is authorised and regulated by the Financial Conduct Authority (FCA), ensuring client funds are held in segregated accounts and subject to UK financial service standards. Retail clients may be eligible for protection via the Financial Services Compensation Scheme (FSCS) on certain balances.",
+      whenToAvoid: "If you prefer brokers not under FCA oversight or need products only available through unregulated jurisdictions.",
+      platforms: "CMC offers its proprietary 'Next Generation' platform, known for strong charting, order types, and research tools. MetaTrader 4 (MT4) for forex and CFD trading via a familiar third-party interface. Mobile apps with advanced watchlists and alerts. User feedback and specialist reviews note the platform depth and analytical tools are strong points, though beginners may find the interface initially complex.",
+      costs: "CMC Markets generally charges through spreads and financing rather than high entry fees. Forex spreads are competitive on major pairs. CFDs have broad coverage with tight pricing on indices and FX; share CFD fees vary. No minimum deposit requirement. Overnight financing costs apply to leveraged positions, and there may be inactivity fees after extended dormancy. Costs overall are transparent and competitive in core markets, though fees on share CFDs and other instruments may be higher than some niche low-cost brokers.",
+      assetCoverage: "CMC Markets offers access to an extensive range of instruments as CFDs and spread bets, including forex (major, minor and exotic pairs), indices (global equity and sector indices), commodities (metals, energies, agris), shares & ETFs (CFDs) — thousands of instruments, and spread betting options for UK traders. Real share/ETF ownership is not offered via the UK CFD entity — CFD exposure is derivative-based rather than direct asset ownership.",
+      customerFeedback: "On Trustpilot, many UK users rate CMC Markets highly for platform reliability and trading experience, though some feedback highlights occasional customer service or pricing execution frustrations. Overall sentiment among verified reviewers is moderately positive, with several recent 5-star reviews emphasising ease of use and platform stability.",
+      costComparison: "Compared with simpler spread brokers, CMC Markets' pricing model is spread-based with occasional commissions (e.g., share CFDs), transparent about costs with no hidden commissions on many assets, and market competitive, though specific markets (like share CFD fees) may be higher than low-cost execution-only brokers. Traders should consider anticipated trading frequency and products (FX vs share CFDs) when assessing total cost.",
+      risks: [
+        "CFDs and spread betting involve leverage risk and can amplify losses.",
+        "Platform complexity may slow adoption for new traders.",
+        "Financing costs and overnight fees can accumulate on longer positions.",
+        "Market volatility can widen spreads and affect execution quality.",
+        "All leveraged products carry risk and require careful position management.",
+      ],
+      faq: [
+        { question: "Is CMC Markets regulated in the UK?", answer: "Yes — CMC Markets UK plc is FCA-regulated with segregated client funds." },
+        { question: "Can UK users start with no minimum deposit?", answer: "Yes — CMC Markets does not enforce a minimum deposit." },
+        { question: "Does CMC offer MT4?", answer: "Yes — along with its proprietary platform and mobile apps." },
+        { question: "Is CMC Markets suitable for beginners?", answer: "It can be, especially with demo accounts and educational resources, though the platform's depth may feel complex at first." },
+        { question: "Are financing costs transparent?", answer: "Yes — overnight financing and spreads are disclosed, though these can add to total cost." },
+      ],
+      methodology: "This review aggregates independent broker data, platform documentation, and verified user feedback. It is presented neutrally and does not constitute financial advice. Affiliate participation does not influence evaluation criteria.",
+    },
   },
+
+  // ═══════════════════════════════════════════════════════
+  // 5. PLUS500
+  // ═══════════════════════════════════════════════════════
   {
     slug: "plus500",
     name: "Plus500",
-    shortDescription: "Simple platform aimed at beginner traders.",
-    longDescription:
-      "Plus500 focuses on ease of use with a proprietary trading platform and a limited but accessible product range.",
+    shortDescription: "FCA-regulated and London Stock Exchange-listed CFD broker with a simple proprietary platform and commission-free pricing.",
+    longDescription: "Plus500 is a UK-regulated online broker focused mainly on Contracts-for-Difference, listed on the London Stock Exchange, offering a single proprietary trading platform designed for simplicity with commission-free CFD pricing.",
     availabilityCountries: ["UK", "EU"],
     regulators: ["FCA", "CySEC"],
-    instruments: ["forex", "commodities", "indices"],
+    instruments: ["forex", "indices", "commodities", "stocks"],
     products: ["CFDs"],
     platforms: ["Web", "Mobile"],
     feeModel: "spread-only",
     minDeposit: "£100",
-    pros: ["Easy to use", "Quick account setup"],
-    cons: ["Limited advanced tools"],
+    pros: [
+      "FCA-regulated and publicly listed on the London Stock Exchange",
+      "Simple, clean trading platform across web and mobile",
+      "Commission-free CFD pricing with no deposit fees",
+      "Broad CFD markets — forex, indices, commodities, shares",
+    ],
+    cons: [
+      "Only CFD products — no direct asset ownership for UK traders",
+      "Mixed customer feedback on service responsiveness and withdrawals",
+      "Limited advanced trading features — no MetaTrader support",
+    ],
     bestForTags: ["beginners", "simplicity"],
-    riskNotes: ["Retail investor accounts lose money when trading CFDs."],
-    lastUpdated: "2025-01-15",
+    riskNotes: [
+      "Retail investor accounts lose money when trading CFDs with this provider.",
+      "Leverage increases loss risk — significant capital can be lost quickly.",
+      "Overnight financing on leveraged positions adds cost.",
+    ],
+    lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Open Plus500 Account",
-      affiliateUrl: "https://example.com/plus500"
-    }
+      affiliateUrl: "https://example.com/plus500",
+    },
+    review: {
+      verdict: {
+        bestFor: [
+          "Traders who want a simple, commission-free CFD trading experience with broad markets and a straightforward platform.",
+          "Beginners seeking an easy-to-use platform with minimal account setup friction and clear pricing.",
+          "Active retail CFD traders who want access to forex, indices, commodities and share CFDs on a single platform.",
+        ],
+        notIdealFor: [
+          "Investors seeking direct ownership of shares/ETFs, advanced order types, or professional trading tools.",
+        ],
+      },
+      whoFor: [
+        "Want a CFD-centric platform (no direct stock investing).",
+        "Prioritise simplicity and usability over advanced trading tools.",
+        "Value one integrated platform for multiple asset CFDs.",
+        "Compare cost structure and execution quality before choosing a broker.",
+      ],
+      evaluationCriteria: [
+        "Regulation & safety (FCA oversight).",
+        "Trading costs (spreads, conversion fees, financing).",
+        "Platform usability.",
+        "Asset access breadth.",
+        "Public user feedback patterns.",
+        "Suitability for different trading styles.",
+      ],
+      overview: "Plus500 is a UK-regulated online broker focused mainly on Contracts-for-Difference (CFDs). It is listed on the London Stock Exchange and has a global footprint, serving clients with a single proprietary trading platform. Plus500 operates through its FCA-regulated subsidiary in the UK.",
+      strengths: [
+        "FCA-regulated and publicly listed (London Stock Exchange) — offering transparency and oversight.",
+        "Simple, clean trading platform across web and mobile.",
+        "Competitive, commission-free CFD pricing with no deposit fees.",
+        "Broad CFD markets (forex, indices, commodities, shares).",
+      ],
+      limitations: [
+        "Only CFD products available for UK traders — no direct asset ownership.",
+        "Mixed customer feedback on service responsiveness.",
+        "Limited advanced trading features compared with full institutional platforms.",
+      ],
+      regulation: "Plus500's UK business is regulated by the Financial Conduct Authority (FCA), which requires segregated client funds and adherence to stringent financial standards. It is also listed on the London Stock Exchange, adding a layer of public disclosure obligations.",
+      whenToAvoid: "Seek a broker with direct share ownership or broader investor services (like ISA/SIPP) — Plus500's UK entity focuses solely on CFDs.",
+      platforms: "Plus500 provides its own proprietary platform on web and mobile. It's designed for simplicity, with clear panels for trade execution, charts, watchlists and P&L. The platform does not support MetaTrader (MT4/MT5) or third-party interfaces. User feedback suggests the platform is generally intuitive, especially for beginners, though some reviews note occasional glitches or limitations in advanced order entry.",
+      costs: "Plus500's cost structure primarily includes spreads (the main pricing mechanism on CFDs, commission-free), currency conversion fee (approx. up to 0.70% if quote currency differs from account currency), no deposit fees charged by the broker, and financing costs on leveraged CFD positions held overnight. Overall, trading costs are transparent and competitive for a simple CFD model; however, leverage and financing charges can accumulate on longer-held positions.",
+      assetCoverage: "Plus500 offers CFDs on forex pairs, global indices, commodities, share CFDs (hundreds to thousands), and other derivative instruments depending on region. UK clients do not have access to Plus500 Invest (the direct share trading arm); that service is not available to UK residents.",
+      customerFeedback: "On UK and global Trustpilot profiles, Plus500's ratings vary widely. Some users report ease of depositing, intuitive design and decent support. However, a substantial number of users also report frustration with customer service, alleged account holds, and withdrawal issues — although these are not verified regulatory complaints and can occur with many online brokers. This mix contributes to an overall widely varied sentiment score in public reviews.",
+      costComparison: "Plus500's pricing is typical of a commission-free CFD broker. Spreads only — simplifies cost understanding but requires attention during volatile markets. Conversion charges on non-GBP trades. No tiered accounts or raw spread options like some competitors (e.g., Razor accounts). This simplicity benefits beginners but may cost active traders compared with low-spread+commission pricing models.",
+      risks: [
+        "Leverage increases loss risk; significant capital can be lost quickly.",
+        "Overnight financing on leveraged positions adds cost.",
+        "Spread widening can occur during low liquidity or news events.",
+        "CFD pricing mechanisms mean Plus500 can act as principal counterparty to client trades — this can generate client-loss-linked revenue.",
+        "Mixed user experiences on support require careful personal judgement before funding.",
+      ],
+      faq: [
+        { question: "Is Plus500 regulated in the UK?", answer: "Yes — Plus500UK Ltd is authorised and regulated by the FCA." },
+        { question: "Can UK traders buy actual shares on Plus500?", answer: "No — UK clients trade CFDs only; direct share investing through Plus500 Invest is unavailable in the UK." },
+        { question: "Are there commissions?", answer: "Plus500 uses spreads rather than commissions for most CFD instruments." },
+        { question: "Is the platform easy for beginners?", answer: "Most user reviews describe the interface as straightforward, but some report limited advanced order features." },
+        { question: "Does it charge deposit fees?", answer: "No — Plus500 generally does not charge deposit fees." },
+      ],
+      methodology: "This review reflects third-party broker data, FCA status, platform documentation and wide-sample user feedback. It is neutral and not financial advice. Affiliate relationships do not influence evaluation criteria.",
+    },
   },
-  {
-    slug: "pepperstone",
-    name: "Pepperstone",
-    shortDescription: "Low-latency broker popular with active traders.",
-    longDescription:
-      "Pepperstone offers fast execution and support for MetaTrader platforms, appealing to more experienced traders.",
-    availabilityCountries: ["UK", "EU"],
-    regulators: ["FCA"],
-    instruments: ["forex", "commodities", "indices"],
-    products: ["CFDs"],
-    platforms: ["MT4", "MT5"],
-    feeModel: "commission+spread",
-    minDeposit: "£200",
-    pros: ["Fast execution", "MT4/MT5 support"],
-    cons: ["Less beginner-focused"],
-    bestForTags: ["advanced", "low-fees"],
-    riskNotes: ["Leverage increases both gains and losses."],
-    lastUpdated: "2025-01-15",
-    affiliate: {
-      primaryCtaText: "Trade with Pepperstone",
-      affiliateUrl: "https://example.com/pepperstone"
-    }
-  },
+
+  // ═══════════════════════════════════════════════════════
+  // 6. ETORO
+  // ═══════════════════════════════════════════════════════
   {
     slug: "etoro",
     name: "eToro",
-    shortDescription: "Social trading platform with copy trading.",
-    longDescription:
-      "eToro combines trading with social features, allowing users to follow and copy other traders.",
+    shortDescription: "FCA-regulated multi-asset platform combining stocks, ETFs, crypto and CFDs with social and copy-trading features.",
+    longDescription: "eToro is a multi-asset online broker with millions of users worldwide, regulated in the UK by the FCA, combining trading, investing and social elements including CopyTrader with access to stocks, ETFs, crypto and CFDs.",
     availabilityCountries: ["UK", "EU"],
-    regulators: ["FCA", "CySEC"],
-    instruments: ["stocks", "crypto", "indices"],
-    products: ["CFDs"],
+    regulators: ["FCA", "CySEC", "ASIC"],
+    instruments: ["stocks", "crypto", "indices", "commodities", "forex"],
+    products: ["CFDs", "stocks", "ETFs", "crypto"],
     platforms: ["Web", "Mobile"],
     feeModel: "spread-only",
     minDeposit: "£50",
-    pros: ["Copy trading", "Low entry barrier"],
-    cons: ["Higher non-trading fees"],
+    pros: [
+      "FCA-regulated with multi-asset access — stocks, ETFs, crypto and CFDs",
+      "Social and copy-trading features accessible for beginners",
+      "Commission-free trading on many stocks and ETFs",
+      "Fractional shares available with small investment amounts",
+    ],
+    cons: [
+      "Not the lowest-cost broker for active forex or CFD execution",
+      "Withdrawal fees, currency conversion and inactivity charges apply",
+      "Mixed user feedback on customer service in some cases",
+    ],
     bestForTags: ["beginners", "social-trading"],
-    riskNotes: ["Crypto trading is highly volatile."],
-    lastUpdated: "2025-01-15",
+    riskNotes: [
+      "Crypto assets are volatile and not covered by FSCS protection.",
+      "Leverage and CFDs carry risk of rapid losses.",
+      "'Zero commission' does not mean no cost — spreads and fees still apply.",
+    ],
+    lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Join eToro",
-      affiliateUrl: "https://example.com/etoro"
-    }
+      affiliateUrl: "https://example.com/etoro",
+    },
+    review: {
+      verdict: {
+        bestFor: [
+          "UK investors who want a multi-asset trading and investing platform with social and copy-trading features.",
+          "Beginners who want a simple bridge into investing and trading without complex professional tools.",
+          "Those interested in copy trading, fractional stocks/ETFs and easy entry into markets.",
+        ],
+        notIdealFor: [
+          "Active day traders or high-frequency scalar traders seeking tightest spreads or institutional execution tools.",
+        ],
+      },
+      whoFor: [
+        "Want a regulated, multi-asset broker under FCA oversight.",
+        "Are interested in stocks, ETFs, crypto, and CFDs on a single platform.",
+        "Prefer easy-to-use mobile and web interfaces.",
+        "Are attracted by social trading and copy trading.",
+        "Want to compare cost and experience before choosing a broker.",
+      ],
+      evaluationCriteria: [
+        "Regulation & safety (FCA and international licences).",
+        "Cost structure (fees, spreads, withdrawals, conversions).",
+        "Platform usability and features.",
+        "Asset range and product quality.",
+        "Public user feedback and trust signals.",
+      ],
+      overview: "eToro is a multi-asset online broker with millions of users worldwide, regulated in the UK by the Financial Conduct Authority (FCA). It combines trading, investing and social elements (like CopyTrader) with a broad but not exhaustive asset set.",
+      strengths: [
+        "FCA-regulated and globally licensed broker.",
+        "Multi-asset access: stocks, ETFs, crypto, CFDs and more.",
+        "Easy-to-use platforms on web and mobile.",
+        "Social and copy-trading features for beginners.",
+      ],
+      limitations: [
+        "Fees apply on some trades (e.g. spreads, crypto, withdrawals).",
+        "Not the lowest-cost broker for active forex/CFD execution.",
+        "Mixed user feedback on customer service in some cases.",
+      ],
+      regulation: "eToro (UK) Ltd is authorised and regulated by the Financial Conduct Authority (FCA) in the UK (Firm Reference Number: 583263). Client funds are held in segregated accounts, and eligible retail clients may be protected up to applicable limits by the Financial Services Compensation Scheme (FSCS). eToro also operates under multiple global licences (e.g., CySEC, ASIC) and is publicly traded, adding layers of regulatory scrutiny and disclosure.",
+      whenToAvoid: "If you prefer brokers solely focused on leveraged CFD execution with ultra-tight spreads for short-term trading.",
+      platforms: "eToro's platforms include a web and mobile trading app with a clean, beginner-friendly interface, social trading to follow and copy other traders' strategies, fractional investing in stocks and ETFs accessible with small amounts, and watchlists, alerts, and educational content built into the experience. The platform is often regarded as intuitive and accessible, though more advanced traders may miss professional charting and order-type depth offered by specialist platforms (MT4/MT5, cTrader).",
+      costs: "eToro's fee structure includes multiple components. Commission-free trading on many stocks and ETFs, though there may be small execution fees or flat per-trade charges in some regions. Spreads on forex, CFD and derivative trades vary by asset and are a primary source of cost. Withdrawals typically have a flat fee (e.g., USD 5). Currency conversion fees apply if your account currency differs from trade currency. Inactivity fees are charged if the account is unused after a long period. Crypto trades often include a spread or percentage fee on buy/sell. While many products are labelled 'commission-free,' eToro still earns via spreads and ancillary fees — it is not a zero-cost broker.",
+      assetCoverage: "eToro offers UK users access to stocks and ETFs (many available for commission-free trading), cryptocurrencies (available to trade, but not FSCS protected), CFDs on forex, indices, commodities and other markets, and fractional shares accessible with smaller investment amounts. The platform's breadth suits a combination of long-term investing and trading strategies rather than pure professional market execution.",
+      customerFeedback: "On Trustpilot, eToro maintains around a 4.2/5 average rating, with tens of thousands of reviews. Many users praise the platform's ease of use and community features, while some report mixed experiences with customer support or specific fee misunderstandings. User opinions range from highly positive feedback on service and platform quality, to isolated complaints about delays or account issues.",
+      costComparison: "Compared with brokers focused on execution quality, eToro trades stocks/ETFs with no standard commission but may levy flat or conversion fees. Forex and CFDs use spreads, which are generally wider than raw spread accounts offered by execution-only brokers. Withdrawal and inactivity fees mean holding and non-trading costs should be factored into long-term planning. Understanding the mix of commission-free labels and spread costs is key to comparing eToro with low-cost execution brokers like Pepperstone or XTB.",
+      risks: [
+        "Leverage and CFDs carry risk of rapid losses.",
+        "Crypto assets are volatile and not covered by FSCS protection.",
+        "Fee structures vary by product — 'zero commission' does not mean no cost.",
+        "Spreads can widen in low-liquidity environments.",
+        "All investing and trading products involve risk of capital loss.",
+      ],
+      faq: [
+        { question: "Is eToro regulated by the FCA in the UK?", answer: "Yes. eToro (UK) Ltd is authorised and regulated by the Financial Conduct Authority." },
+        { question: "Does eToro offer commission-free stock trading?", answer: "Many stocks and ETFs are commission-free, but ancillary fees (spreads, FX conversions, withdrawals) still apply." },
+        { question: "Can I trade cryptocurrencies on eToro UK?", answer: "Yes — but crypto holdings are not covered by FSCS protection." },
+        { question: "Is eToro suitable for beginners?", answer: "The platform's social and copy trading features make it accessible to beginners." },
+        { question: "Are there hidden fees?", answer: "Fees like currency conversion, withdrawal and inactivity charges apply." },
+      ],
+      methodology: "This review is based on third-party expert sources, official platform disclosures, and public user feedback. It is neutral and does not constitute financial advice. eToro may feature in affiliate programmes, but evaluations are impartial.",
+    },
   },
+
+  // ═══════════════════════════════════════════════════════
+  // 7. INTERACTIVE BROKERS
+  // ═══════════════════════════════════════════════════════
   {
     slug: "interactive-brokers",
     name: "Interactive Brokers",
-    shortDescription: "Professional-grade broker with global market access.",
-    longDescription:
-      "Interactive Brokers offers extensive market access and advanced tools, primarily targeting experienced traders.",
+    shortDescription: "Globally recognised professional-grade broker with access to 90+ markets, very low fees, ISA support and FCA regulation.",
+    longDescription: "Interactive Brokers is a globally recognised broker with decades of history, widely used by professional traders and institutions. The FCA-regulated UK entity provides access to 90+ markets with some of the industry's lowest trading fees.",
     availabilityCountries: ["UK", "EU"],
     regulators: ["FCA"],
-    instruments: ["stocks", "options", "futures", "forex"],
-    products: ["stocks", "options", "futures"],
+    instruments: ["stocks", "options", "futures", "forex", "indices", "commodities"],
+    products: ["stocks", "options", "futures", "ETFs", "bonds", "CFDs", "ISA"],
     platforms: ["Web", "Mobile"],
     feeModel: "commission-based",
     minDeposit: "£0",
-    pros: ["Global access", "Professional tools"],
-    cons: ["Steep learning curve"],
+    pros: [
+      "Very low trading fees and transparent pricing across global markets",
+      "Access to 90+ markets — stocks, ETFs, options, futures, forex, bonds",
+      "Advanced trading platforms with research, charting and order depth",
+      "ISA and junior ISA options for tax-efficient UK investing",
+    ],
+    cons: [
+      "Steep learning curve — platform complexity can overwhelm beginners",
+      "Fee structure nuances (withdrawals, FX conversions, tiers) can confuse new users",
+      "Execution tools and research may be overkill for casual traders",
+    ],
     bestForTags: ["advanced", "professionals"],
-    riskNotes: ["Complex instruments carry higher risk."],
-    lastUpdated: "2025-01-15",
+    riskNotes: [
+      "Complex instruments carry higher risk.",
+      "Leverage and CFDs carry risk of losses.",
+      "Multiple fee components require careful review.",
+    ],
+    lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Explore Interactive Brokers",
-      affiliateUrl: "https://example.com/ib"
-    }
-  }
+      affiliateUrl: "https://example.com/ib",
+    },
+    review: {
+      verdict: {
+        bestFor: [
+          "Serious investors and active traders who want global markets, low fees, and advanced execution tools under FCA regulation.",
+          "Experienced traders and investors who trade stocks, options, futures, forex and CFDs with tight pricing and broad market access.",
+        ],
+        notIdealFor: [
+          "Users who want the simplest possible interface, or only basic trading with minimal learning curve.",
+          "Beginners with patience and willingness to learn a sophisticated platform (not recommended as the first broker if simplicity is key).",
+        ],
+      },
+      whoFor: [
+        "Want direct access to global exchanges and broad asset coverage.",
+        "Care about low fees and transparent pricing across markets.",
+        "Prioritise professional-grade tools, research and execution.",
+        "Compare execution quality, platform power, and cost efficiency before choosing a broker.",
+      ],
+      evaluationCriteria: [
+        "Regulation & safety (UK FCA authorisation).",
+        "Costs and pricing structure (commissions, FX fees, financing).",
+        "Platform quality and tools.",
+        "Asset coverage and global access.",
+        "User feedback and trust signals.",
+      ],
+      overview: "Interactive Brokers (IBKR) is a globally recognised broker with decades of history. It's widely used by professional traders, institutions, and sophisticated retail investors. Its UK entity is authorised and regulated by the FCA, with client money held under strict requirements.",
+      strengths: [
+        "Very low trading fees and transparent pricing across global markets.",
+        "Access to 90+ markets globally (stocks, ETFs, options, futures, forex, bonds).",
+        "Advanced trading platforms (desktop, mobile, Client Portal).",
+        "ISA & junior ISA options available in UK (tax-efficient investing).",
+      ],
+      limitations: [
+        "Platform complexity — steeper learning curve for non-technical beginners.",
+        "Some fee structures (withdrawals after free tier, FX conversions) can be confusing.",
+        "Execution tools and research might be overkill for casual traders.",
+      ],
+      regulation: "Interactive Brokers UK is regulated by the Financial Conduct Authority (FCA), which means client funds are segregated from the broker's own capital. UK clients benefit from governance standards under UK law. This regulatory framework reduces custodial risk and aligns IBKR with UK financial protections.",
+      whenToAvoid: "If you want only a very simple platform with minimal operational complexity.",
+      platforms: "Interactive Brokers offers IBKR Mobile, Client Portal (web), and Trader Workstation (TWS) — a powerful desktop platform. Research, charting, and advanced order types across asset classes. These tools provide depth for market analysis and execution. However, they are more complex than platforms designed purely for beginners.",
+      costs: "Interactive Brokers is often praised for low fees and transparent pricing. Stocks & ETFs: competitive commissions starting from low single-digit amounts or percentage-based depending on region and volume. Forex/CFDs: tight spreads with transparent commission + financing rates. No minimum deposit or minimum amount to start. FX conversion fees are among the industry's lowest for cross-currency trading. Withdrawals: one free withdrawal per month; subsequent transfers may incur fees. While costs are generally low, the fee structure can be sophisticated — with tiered pricing on trading types and markets — meaning new users must spend time understanding costs before trading.",
+      assetCoverage: "Interactive Brokers provides access to a broad range of markets globally: stocks & ETFs on dozens of exchanges, options & futures across major markets, forex and CFDs on many instruments, and bonds, funds, and other instruments across multiple currencies. This broad coverage makes IBKR suitable for multi-strategy investors and traders who don't want to maintain separate accounts for different asset types.",
+      customerFeedback: "Users on Trustpilot and specialist forums generally give Interactive Brokers a positive rating (~4/5). Positive comments: good pricing and execution quality, strong mobile app improvements over time. Common concerns: platform complexity and setup learning challenges, fee structure nuances can confuse new users.",
+      costComparison: "In contrast with most retail brokers, IBKR's pricing is some of the lowest for trading stocks, ETFs and options. FX conversion and cross-currency fees tend to be below average, beneficial for multi-currency portfolios. Unlike many brokers that earn from spreads primarily, IBKR's commissions and transparent fee models make cost forecasting clearer. However, complex pricing tiers mean traders must estimate their expected costs carefully — particularly for infrequent or small trades.",
+      risks: [
+        "Platform sophistication may overwhelm beginners.",
+        "Leverage & CFDs carry risk of losses.",
+        "Multiple fee components (commissions, FX, withdrawals) require careful review.",
+        "Regulatory protections exist but don't eliminate market risk — capital loss is still possible.",
+      ],
+      faq: [
+        { question: "Is Interactive Brokers regulated in the UK?", answer: "Yes — it is authorised and regulated by the FCA with segregated client funds." },
+        { question: "Does IBKR have a minimum deposit?", answer: "No mandatory minimum deposit required to start trading." },
+        { question: "Can I invest in a UK ISA with IBKR?", answer: "Yes — IBKR offers a stocks & shares ISA option." },
+        { question: "Are the fees low?", answer: "IBKR's fees are among the industry's lowest, particularly for stocks, ETFs and forex." },
+        { question: "Is IBKR suitable for beginners?", answer: "It's more suited to intermediate and advanced users due to platform complexity." },
+      ],
+      methodology: "This review is based on public fee schedules, FCA regulatory status, third-party expert analyses, and user feedback. It is neutral and not financial advice. Affiliate relationships do not influence evaluations.",
+    },
+  },
+
+  // ═══════════════════════════════════════════════════════
+  // 8. XTB
+  // ═══════════════════════════════════════════════════════
+  {
+    slug: "xtb",
+    name: "XTB",
+    shortDescription: "FCA-regulated broker with competitive spreads, an intuitive proprietary platform (xStation) and strong educational resources.",
+    longDescription: "XTB is a global online broker regulated in the UK by the FCA, offering forex, indices, commodities and share CFDs through its proprietary xStation platform with transparent pricing and strong educational resources.",
+    availabilityCountries: ["UK", "EU"],
+    regulators: ["FCA"],
+    instruments: ["forex", "indices", "commodities", "stocks", "crypto"],
+    products: ["CFDs"],
+    platforms: ["Web", "Mobile"],
+    feeModel: "spread-only",
+    minDeposit: "£0",
+    pros: [
+      "FCA regulation with client fund segregation and potential FSCS protection",
+      "Competitive spreads and transparent pricing",
+      "Strong educational resources and market research",
+      "Intuitive proprietary platform (xStation) on web, desktop and mobile",
+    ],
+    cons: [
+      "No direct ownership of shares or ETFs for UK clients — CFDs only",
+      "Asset range narrower than some global brokers like Interactive Brokers",
+      "No raw-spread + commission tier for high-volume traders",
+    ],
+    bestForTags: ["beginners", "low-fees"],
+    riskNotes: [
+      "CFDs are leveraged and can amplify losses.",
+      "Overnight financing costs accumulate on leveraged holdings.",
+      "Spread widening can occur in low-liquidity or volatile conditions.",
+    ],
+    lastUpdated: "2026-01-15",
+    affiliate: {
+      primaryCtaText: "Visit XTB",
+      affiliateUrl: "https://example.com/xtb",
+    },
+    review: {
+      verdict: {
+        bestFor: [
+          "Traders who want a balanced platform offering competitive spreads, useful research tools, and educational resources for FX and CFD trading.",
+          "New traders who value a well-designed proprietary platform and structured learning centre to build confidence.",
+          "Those wanting tight spreads, modest fees, and straightforward trading execution without overly complex interfaces.",
+        ],
+        notIdealFor: [
+          "Investors seeking direct share ownership, ISAs/SIPPs, or deep institutional-grade charting tools.",
+        ],
+      },
+      whoFor: [
+        "Want to trade forex, indices, commodities, and CFDs.",
+        "Prefer a balanced cost profile between raw spreads and ease-of-use.",
+        "Value built-in research and educational content.",
+        "Are evaluating brokers for fair pricing and platform features.",
+      ],
+      evaluationCriteria: [
+        "Regulation & safety (FCA authorisation).",
+        "Cost structure (spreads, financing, conversion).",
+        "Platform quality and usability.",
+        "Asset range and product coverage.",
+        "Public user feedback and trust signals.",
+        "Suitability across trader types.",
+      ],
+      overview: "XTB is a global online broker regulated in the UK by the Financial Conduct Authority (FCA). It offers access to forex, indices, commodities and share CFDs through a proprietary platform and MetaTrader 4 in some regions. The broker is often positioned between simple CFD-only platforms and advanced execution brokers.",
+      strengths: [
+        "FCA regulation and client fund segregation.",
+        "Competitive spreads and transparent pricing.",
+        "Strong educational resources and market research.",
+        "Intuitive proprietary platform (xStation).",
+      ],
+      limitations: [
+        "No direct ownership of shares/ETFs for UK clients — CFDs only.",
+        "Asset range narrower than some global brokers (e.g., Interactive Brokers).",
+        "MetaTrader access can be limited depending on jurisdiction.",
+      ],
+      regulation: "XTB UK Ltd is regulated by the Financial Conduct Authority (FCA), which requires segregation of client funds and adherence to UK financial standards. Eligible clients may benefit from the Financial Services Compensation Scheme (FSCS) for certain cash balances.",
+      whenToAvoid: "If your primary need is direct investment products like ISAs/SIPPs — XTB's UK entity focuses on CFDs.",
+      platforms: "XTB provides xStation (proprietary platform) — web, desktop and mobile with integrated charting, risk management and watchlists. Some access to MetaTrader 4 depending on region (varies by local entity). Research tools including news, technical insights and market analysis. Many users find xStation easy to navigate, especially compared with complex third-party platforms.",
+      costs: "XTB's cost structure includes generally competitive spreads on major forex pairs and core indices, financing/overnight fees applied to leveraged positions, currency conversion fees where trades are executed in currencies different from the account base, and no inactivity fee in many regions (varies by local rules). Overall, XTB's pricing is transparent and often competitive — particularly on its standard account — though active scalpers and high-volume traders may still find raw-spread + commission models elsewhere cheaper in some markets.",
+      assetCoverage: "XTB offers CFDs on forex major, minor and some exotics, global indices, commodities (energies, metals), share CFDs and ETFs, and cryptocurrencies (where permitted). UK clients do not access direct instruments — all products are CFD derivatives.",
+      customerFeedback: "User reviews on public platforms such as Trustpilot and specialist brokers sites tend to show a generally positive sentiment for XTB's usability, educational resources and pricing. Common praise centres on ease of onboarding and clarity of fees, while some users note support responsiveness can vary. Overall feedback suggests XTB is regarded as reliable and stable for retail FX/CFD trading.",
+      costComparison: "Compared with peers like Plus500 or IG, XTB's spreads compete well with standard CFD brokers while balancing ease-of-use. No raw-spread + commission tier like Pepperstone's Razor model — this simplifies costs, though serious high-volume traders might find specialized brokers slightly cheaper. Financing costs align with typical CFD practice and should be considered for swing positions. Traders should match expected trading frequency with typical spreads and financing costs to estimate real price competitiveness.",
+      risks: [
+        "Leverage risk: CFDs are leveraged and can amplify losses.",
+        "Financing costs: overnight costs accumulate on leveraged holdings.",
+        "Spread widening: can occur in low-liquidity or volatile conditions.",
+        "CFD-only: no asset ownership means exposure remains derivative-based.",
+        "All leveraged trading carries risk of capital loss.",
+      ],
+      faq: [
+        { question: "Is XTB regulated in the UK?", answer: "Yes — XTB UK is authorised and regulated by the Financial Conduct Authority (FCA)." },
+        { question: "Does XTB provide direct share ownership?", answer: "No — products available to UK clients are CFDs only." },
+        { question: "Do spreads vary by instrument?", answer: "Yes — spreads depend on asset type, market conditions and timing." },
+        { question: "Is XTB suitable for beginners?", answer: "Yes — XTB's proprietary platform and educational tools make it accessible for new traders." },
+        { question: "Are there inactivity fees?", answer: "In many regions, inactivity fees are not charged; UK clients should confirm in the live fee schedule." },
+      ],
+      methodology: "This review is based on broker disclosures, public fee documents, FCA regulatory status and aggregate user feedback. It is impartial and not financial advice. Affiliate relationships do not influence the assessment.",
+    },
+  },
+
+  // ═══════════════════════════════════════════════════════
+  // 9. AVATRADE
+  // ═══════════════════════════════════════════════════════
+  {
+    slug: "avatrade",
+    name: "AvaTrade",
+    shortDescription: "Multi-platform CFD broker with MT4, MT5, copy trading and straightforward pricing — UK clients access via European/global licences.",
+    longDescription: "AvaTrade is a multi-platform broker offering CFD trading across a range of asset classes, operating globally with regulatory licences including the Central Bank of Ireland, ASIC and FSCA. UK traders typically access via European regulation post-Brexit.",
+    availabilityCountries: ["UK", "EU"],
+    regulators: ["CySEC", "ASIC"],
+    instruments: ["forex", "indices", "commodities", "stocks", "crypto"],
+    products: ["CFDs"],
+    platforms: ["Web", "Mobile", "MT4", "MT5"],
+    feeModel: "spread-only",
+    minDeposit: "£100",
+    pros: [
+      "Supports MetaTrader 4, MetaTrader 5 and proprietary AvaTradeGO platform",
+      "Copy trading and social platforms (DupliTrade, ZuluTrade)",
+      "Straightforward pricing with no commission on most CFD instruments",
+      "Educational tools and beginner-friendly resources",
+    ],
+    cons: [
+      "UK FCA status is less direct — operates via European licences rather than a dedicated UK FCA entity",
+      "Only CFDs offered to UK clients — no direct share ownership",
+      "Public user feedback shows mixed service experiences in some regions",
+    ],
+    bestForTags: ["beginners", "multi-asset"],
+    riskNotes: [
+      "CFDs are leveraged products — losses can exceed deposits.",
+      "Regulatory protections vary by region — UK clients should confirm local FCA availability.",
+      "Spread widening may occur during low liquidity.",
+    ],
+    lastUpdated: "2026-01-15",
+    affiliate: {
+      primaryCtaText: "Visit AvaTrade",
+      affiliateUrl: "https://example.com/avatrade",
+    },
+    review: {
+      verdict: {
+        bestFor: [
+          "Traders seeking a diversified CFD offering with multiple platform options and straightforward pricing.",
+          "New traders who want preset platform options and educational resources to get started.",
+          "Those who prefer multiple platform choices (including MetaTrader) and moderate pricing.",
+        ],
+        notIdealFor: [
+          "Investors seeking direct share ownership or long-term investment accounts (e.g., ISA/SIPP).",
+        ],
+      },
+      whoFor: [
+        "Want to trade forex, indices, commodities and CFDs.",
+        "Appreciate platform choice (MT4, MT5, copy trading).",
+        "Desire a broker with simple onboarding and structured education.",
+        "Are comparing pricing, platforms and ease of use before selecting a broker.",
+      ],
+      evaluationCriteria: [
+        "Regulation & safety (FCA authorisation).",
+        "Trading costs and transparency.",
+        "Platform variety and usability.",
+        "Asset coverage.",
+        "Public user feedback trends.",
+        "Suitability for different trading styles.",
+      ],
+      overview: "AvaTrade is a multi-platform broker offering CFD trading across a range of asset classes. It operates globally and holds regulatory licences including (for UK clients) oversight through a connected entity with European/Global licences — though UK FCA regulation status varies due to Brexit restructuring (it operates via European licences that may accept UK clients).",
+      strengths: [
+        "Supports MetaTrader 4 (MT4) and MetaTrader 5 (MT5).",
+        "Copy trading and social platforms (e.g., DupliTrade).",
+        "Straightforward pricing with no commission on most CFD instruments.",
+        "Educational tools and beginner-friendly resources.",
+      ],
+      limitations: [
+        "UK FCA status is less direct than purely UK-licensed brokers — users should check local registration status.",
+        "Only CFDs offered to UK clients — no direct share ownership.",
+        "Public user feedback shows mixed service experiences in some regions.",
+      ],
+      regulation: "AvaTrade operates globally with licences in multiple jurisdictions (e.g., Central Bank of Ireland, ASIC Australia, FSCA South Africa), and many UK traders access it under European regulation post-Brexit. Unlike some brokers with a direct FCA entity in the UK, AvaTrade's UK presence is often via pan-EU entities with passporting arrangements that may affect regulatory protections.",
+      whenToAvoid: "Traders who specifically want an FCA-regulated UK brokerage with explicit FCA direct oversight on the UK entity.",
+      platforms: "AvaTrade supports MetaTrader 4 (MT4), MetaTrader 5 (MT5), AvaTradeGO (proprietary mobile/web platform), and DupliTrade and Zulutrade for social/copy trading. The range of platform options is a strength, particularly for traders who want flexibility between industry-standard interfaces and proprietary systems. However, switching between platforms can lead to consistency gaps for some users if not familiar with each.",
+      costs: "AvaTrade primarily uses spreads as the core cost mechanism on CFDs. There are no direct commissions on many standard accounts, but variable spreads apply based on market conditions. Financing/overnight charges accrue on leveraged positions held beyond a trading day. Currency conversion fees may apply for trades not in account currency. Inactivity fees are charged after a period of dormancy. Overall pricing is transparent, though spread costs may be wider than ultra-tight raw spread models like Pepperstone's Razor accounts.",
+      assetCoverage: "AvaTrade provides CFDs on forex pairs, indices and commodities, shares and ETFs (as CFDs), cryptocurrencies (CFDs), and other derivative instruments. Direct ownership of underlying assets (e.g., real shares) is not available for UK clients — exposure remains via CFDs.",
+      customerFeedback: "Public user reviews (including Trustpilot and other review platforms) show a mix of positive and negative feedback. Common positive points include ease of use, multiple platform options and educational resources. Negative aspects often involve support responsiveness and occasional execution complaints.",
+      costComparison: "Compared to other brokers, AvaTrade's spread-only cost model simplifies pricing but may be less competitive than raw spread + commission models for high-frequency traders. Overnight financing remains standard across CFD brokers and should be considered for swing strategies. Currency conversion and inactivity fees add to total cost considerations.",
+      risks: [
+        "CFDs are leveraged products — losses can exceed deposits.",
+        "Regulatory protections vary by region — UK clients should confirm local FCA availability.",
+        "Spread widening may occur during low liquidity.",
+        "Multiple platform choices can add learning overhead.",
+      ],
+      faq: [
+        { question: "Is AvaTrade regulated by the FCA in the UK?", answer: "AvaTrade operates under European and other licences that serve UK clients — users should verify whether FCA direct oversight applies to their account." },
+        { question: "Can I use MT4?", answer: "Yes — MetaTrader 4 and MetaTrader 5 are supported." },
+        { question: "Does AvaTrade charge commissions?", answer: "Standard CFD trading uses spreads rather than fixed commissions." },
+        { question: "Is AvaTrade good for beginners?", answer: "The platform options and educational resources support beginners, though regulation nuances may require additional due diligence." },
+        { question: "Are CFDs offered only?", answer: "Yes — UK clients trade CFDs; there's no direct share ownership." },
+      ],
+      methodology: "This review summarises public regulatory data, platform features, pricing structures and user feedback. It is neutral and not financial advice. Affiliate relationships do not influence the assessment.",
+    },
+  },
+
+  // ═══════════════════════════════════════════════════════
+  // 10. FP MARKETS
+  // ═══════════════════════════════════════════════════════
+  {
+    slug: "fp-markets",
+    name: "FP Markets",
+    shortDescription: "Australian-origin broker known for tight raw spreads and MetaTrader support — UK clients trade under ASIC/CySEC regulation rather than direct FCA oversight.",
+    longDescription: "FP Markets is an Australian-origin broker offering forex and CFD trading globally, known for tight raw spreads, MetaTrader support and consistent execution quality. Regulated under ASIC and CySEC rather than direct FCA oversight.",
+    availabilityCountries: ["UK", "EU"],
+    regulators: ["ASIC", "CySEC"],
+    instruments: ["forex", "indices", "commodities", "stocks", "crypto"],
+    products: ["CFDs"],
+    platforms: ["MT4", "MT5"],
+    feeModel: "commission+spread",
+    minDeposit: "£100",
+    pros: [
+      "Competitive raw spreads on forex major pairs via Razor account",
+      "MetaTrader 4 and MetaTrader 5 available with expert advisor support",
+      "Low minimum deposit on standard accounts",
+      "Multiple account types for pricing flexibility",
+    ],
+    cons: [
+      "No direct FCA oversight for UK clients — regulated under ASIC/CySEC instead",
+      "FSCS protection may not apply to accounts held under overseas entities",
+      "Only CFD products — no direct asset ownership, ISA or SIPP",
+    ],
+    bestForTags: ["advanced", "low-fees"],
+    riskNotes: [
+      "Regulatory differences — UK clients should verify which regulator governs their account.",
+      "CFDs carry leverage risk — capital loss can exceed initial funds.",
+      "Spreads can widen during low liquidity or major news.",
+    ],
+    lastUpdated: "2026-01-15",
+    affiliate: {
+      primaryCtaText: "Visit FP Markets",
+      affiliateUrl: "https://example.com/fp-markets",
+    },
+    review: {
+      verdict: {
+        bestFor: [
+          "Active forex and CFD traders who seek competitive pricing with raw spreads and flexible platforms.",
+          "Beginners who are comfortable using industry-standard platforms like MetaTrader and learning trading basics over time.",
+          "Technical traders, scalpers and algorithm users who benefit from low-spread execution accounts.",
+        ],
+        notIdealFor: [
+          "Investors seeking direct share ownership, ISA/SIPP investing, or a very simple, non-professional platform.",
+        ],
+      },
+      whoFor: [
+        "Want to trade forex, CFDs, indices and commodities with tight pricing.",
+        "Prefer MetaTrader platforms (MT4/MT5) for execution and analysis.",
+        "Compare pricing models and execution quality across brokers.",
+        "Value transparent, raw-spread options for active trading.",
+      ],
+      evaluationCriteria: [
+        "Regulation & safety (FCA or equivalent oversight for UK clients).",
+        "Costs (spreads, commissions, financing).",
+        "Platform access and usability.",
+        "Asset coverage.",
+        "Public user feedback and trust signals.",
+        "Suitability for beginners vs advanced traders.",
+      ],
+      overview: "FP Markets is an Australian-origin broker offering forex and CFD trading globally, often via local entities in regulated areas. It is known for tight raw spreads, MetaTrader support, and consistent execution quality.",
+      strengths: [
+        "Competitive raw spreads on forex major pairs (for Razor accounts).",
+        "MetaTrader 4 & MetaTrader 5 available.",
+        "Low minimum deposit on standard accounts.",
+        "Multiple account types for pricing flexibility.",
+      ],
+      limitations: [
+        "UK regulatory coverage is typically through non-FCA entities, meaning local protections differ from FCA direct oversight.",
+        "Only CFD products for UK users — no direct asset ownership.",
+        "Public user feedback on support and platform nuances is mixed in some cases.",
+      ],
+      regulation: "FP Markets is regulated in Australia (ASIC) and Cyprus (CySEC), and may accept UK traders under certain cross-border provisions or local licences post-Brexit. However, unlike FCA-regulated brokers (e.g., IG, Pepperstone UK, CMC Markets), FP Markets typically does not hold full UK FCA authorisation for the UK retail entity. Client funds are generally held in segregated accounts as required by ASIC/CySEC regulations. UK retail clients should verify the precise regulatory entity that will govern their account. FSCS protection in the UK may not apply to accounts not held under a direct UK-regulated entity.",
+      whenToAvoid: "If you prioritise strict FCA oversight and FSCS protection, FP Markets may not fully match that expectation.",
+      platforms: "FP Markets supports MetaTrader 4 (MT4), MetaTrader 5 (MT5), and trading tools and expert advisor support. MT4 and MT5 are widely used globally and include advanced charting, automated trading support, and custom indicators. There is no proprietary trading platform, which may matter to users who prefer broker-designed interfaces.",
+      costs: "FP Markets uses different pricing structures across two main account types. Standard Account: no commission, wider spreads. Razor Account: raw spreads + commission, lower total cost on major instruments (e.g., EUR/USD). Other costs include financing/overnight charges on leveraged positions, currency conversion fees where applicable, and inactivity fees after extended dormancy. Overall, FP Markets' Razor account often competes on pricing with other raw-spread brokers, but commission and swap (financing) costs should be modelled against expected trading volume.",
+      assetCoverage: "FP Markets provides CFD access to forex major, minor and exotic pairs, indices (global), commodities (metals, energies, agriculture), crypto CFDs (where permitted), and shares & ETFs as CFDs. Direct ownership of underlying assets (shares, ETFs, etc.) is not available — all exposure is derivative-based.",
+      customerFeedback: "Public review platforms and user forums suggest general satisfaction with pricing and execution quality, MetaTrader experience, and account setup speed. Some users comment on variability in customer support responsiveness and nuances in pricing disclosure depending on region. Because FP Markets operates via overseas regulated entities for many regions (and not exclusively FCA-regulated in the UK), public trust signals can vary.",
+      costComparison: "Comparing FP Markets to peers: raw spreads + commissions often beat standard spread-only CFD models in core markets. MetaTrader pricing transparency helps advanced traders calculate execution costs precisely. Financing costs still apply when holding leveraged positions overnight. For scalpers and intraday traders, Razor account pricing may be competitive; for occasional traders, standard spreads may suffice — albeit slightly wider.",
+      risks: [
+        "Regulatory differences: clients should verify which regulator governs their account and what protections apply.",
+        "CFDs carry leverage risk: capital loss can exceed initial funds if risk is not managed.",
+        "Execution costs: spreads can widen during low liquidity or major news.",
+        "No ISA/SIPP: limited to CFD exposure (no tax-free UK investment accounts).",
+      ],
+      faq: [
+        { question: "Is FP Markets regulated by the FCA in the UK?", answer: "Typically not via a dedicated UK FCA entity — UK clients often receive service under overseas regulated arms (ASIC/CySEC). Always confirm with FP Markets which regulatory jurisdiction applies to your account." },
+        { question: "Can I trade MT4/MT5?", answer: "Yes — both MetaTrader 4 and MetaTrader 5 are available." },
+        { question: "Are there commissions?", answer: "Commission applies on Razor accounts; standard accounts use wider spreads instead." },
+        { question: "Is direct asset ownership offered?", answer: "No — UK clients trade CFDs, not direct shares/ETFs." },
+        { question: "Are financing costs charged?", answer: "Yes — overnight financing applies on leveraged positions." },
+      ],
+      methodology: "This review is based on aggregate broker disclosures, regulatory data, pricing structures, and user feedback. It is neutral and not financial advice. Affiliate relationships do not affect the evaluation.",
+    },
+  },
 ];

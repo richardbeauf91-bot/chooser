@@ -36,7 +36,7 @@ export const brokers: Broker[] = [
     lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Trade with Capital.com",
-      affiliateUrl: "https://example.com/capital-com",
+      affiliateUrl: "https://Capital.com",
     },
     review: {
       verdict: {
@@ -112,7 +112,7 @@ export const brokers: Broker[] = [
     products: ["CFDs"],
     platforms: ["MT4", "MT5"],
     feeModel: "commission+spread",
-    minDeposit: "£200",
+    minDeposit: "£0",
     pros: [
       "FCA-regulated with segregated client funds and negative balance protection",
       "Razor account with low raw spreads for active traders",
@@ -133,7 +133,7 @@ export const brokers: Broker[] = [
     lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Trade with Pepperstone",
-      affiliateUrl: "https://example.com/pepperstone",
+      affiliateUrl: "https://pepperstone.com/en-gb/",
     },
     review: {
       verdict: {
@@ -212,7 +212,7 @@ export const brokers: Broker[] = [
     products: ["CFDs", "spread betting", "shares", "ISA", "SIPP"],
     platforms: ["Web", "Mobile", "MT4"],
     feeModel: "spread-only",
-    minDeposit: "£250",
+    minDeposit: "£0",
     pros: [
       "Broad market access — forex, indices, CFDs, shares, ETFs",
       "FCA regulation with segregated client funds and potential FSCS protection",
@@ -233,7 +233,7 @@ export const brokers: Broker[] = [
     lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Trade with IG",
-      affiliateUrl: "https://example.com/ig",
+      affiliateUrl: "https://www.ig.com/uk",
     },
     review: {
       verdict: {
@@ -333,7 +333,7 @@ export const brokers: Broker[] = [
     lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Visit CMC Markets",
-      affiliateUrl: "https://example.com/cmc",
+      affiliateUrl: "https://www.cmcmarkets.com/en-gb",
     },
     review: {
       verdict: {
@@ -434,7 +434,7 @@ export const brokers: Broker[] = [
     lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Open Plus500 Account",
-      affiliateUrl: "https://example.com/plus500",
+      affiliateUrl: "https://www.plus500.com/en/",
     },
     review: {
       verdict: {
@@ -533,7 +533,7 @@ export const brokers: Broker[] = [
     lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Join eToro",
-      affiliateUrl: "https://example.com/etoro",
+      affiliateUrl: "https://www.etoro.com/",
     },
     review: {
       verdict: {
@@ -632,7 +632,7 @@ export const brokers: Broker[] = [
     lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Explore Interactive Brokers",
-      affiliateUrl: "https://example.com/ib",
+      affiliateUrl: "https://www.interactivebrokers.com/",
     },
     review: {
       verdict: {
@@ -716,7 +716,6 @@ export const brokers: Broker[] = [
       "Intuitive proprietary platform (xStation) on web, desktop and mobile",
     ],
     cons: [
-      "No direct ownership of shares or ETFs for UK clients — CFDs only",
       "Asset range narrower than some global brokers like Interactive Brokers",
       "No raw-spread + commission tier for high-volume traders",
     ],
@@ -729,7 +728,7 @@ export const brokers: Broker[] = [
     lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Visit XTB",
-      affiliateUrl: "https://example.com/xtb",
+      affiliateUrl: "https://www.xtb.com/en",
     },
     review: {
       verdict: {
@@ -815,7 +814,6 @@ export const brokers: Broker[] = [
       "Educational tools and beginner-friendly resources",
     ],
     cons: [
-      "UK FCA status is less direct — operates via European licences rather than a dedicated UK FCA entity",
       "Only CFDs offered to UK clients — no direct share ownership",
       "Public user feedback shows mixed service experiences in some regions",
     ],
@@ -828,7 +826,7 @@ export const brokers: Broker[] = [
     lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Visit AvaTrade",
-      affiliateUrl: "https://example.com/avatrade",
+      affiliateUrl: "https://www.avatrade.com/",
     },
     review: {
       verdict: {
@@ -926,7 +924,7 @@ export const brokers: Broker[] = [
     lastUpdated: "2026-01-15",
     affiliate: {
       primaryCtaText: "Visit FP Markets",
-      affiliateUrl: "https://example.com/fp-markets",
+      affiliateUrl: "https://www.fpmarkets.com/en-gb/",
     },
     review: {
       verdict: {

@@ -5,17 +5,6 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 
 import "./globals.css";
 
-export default function RootLayout({ children }) {
-    return (
-      <html lang="en">
-        <head> 
-        </head> 
-        <body className={styles.mainBody}>{children}</body>
-        <GoogleAnalytics gaId="G-0NMXJZHHXD" /> 
-      </html>
-    );
-);
-
 export const metadata: Metadata = {
   title: {
     default: "Find A Broker - Compare Trading Brokers & Find Your Perfect Platform",
@@ -37,6 +26,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+      <SpeedInsights />
+      <GoogleAnalytics gaId="G-0NMXJZHHXD" /> 
         <Navigation />
         <div className="min-h-screen flex flex-col">
           <main className="flex-1">{children}</main>

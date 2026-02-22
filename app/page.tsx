@@ -15,8 +15,8 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-slate-300 leading-relaxed">
-              Compare regulated brokers, trading platforms, and fees side-by-side. 
-              Get expert reviews and find the best broker for your trading needs in minutes.
+              Compare FCA-regulated brokers, trading platforms, and fees side-by-side.
+              Honest reviews and structured comparisons for UK retail traders.
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
@@ -40,19 +40,19 @@ export default function HomePage() {
                 <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span>100% Independent</span>
+                <span>Independent &amp; Transparent</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span>Regulated Brokers Only</span>
+                <span>FCA-Regulated Focus</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span>Updated Daily</span>
+                <span>No Pay-to-Rank</span>
               </div>
             </div>
           </div>
@@ -64,20 +64,20 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900">50+</div>
+              <div className="text-3xl font-bold text-slate-900">10</div>
               <div className="mt-1 text-sm text-slate-600">Brokers Reviewed</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900">1000+</div>
-              <div className="mt-1 text-sm text-slate-600">Hours of Research</div>
+              <div className="text-3xl font-bold text-slate-900">5</div>
+              <div className="mt-1 text-sm text-slate-600">Head-to-Head Comparisons</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900">25+</div>
-              <div className="mt-1 text-sm text-slate-600">Comparison Criteria</div>
+              <div className="text-3xl font-bold text-slate-900">FCA</div>
+              <div className="mt-1 text-sm text-slate-600">Regulated Brokers Focus</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-slate-900">100%</div>
-              <div className="mt-1 text-sm text-slate-600">Transparent Reviews</div>
+              <div className="mt-1 text-sm text-slate-600">Transparent Methodology</div>
             </div>
           </div>
         </div>
@@ -88,10 +88,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">
-              Top Rated Brokers
+              Featured Brokers
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              Compare the most popular and trusted trading platforms
+              FCA-regulated brokers reviewed for UK retail traders
             </p>
           </div>
           
@@ -123,7 +123,7 @@ export default function HomePage() {
               How It Works
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              Find the perfect broker in three simple steps
+              Find the right broker in three simple steps
             </p>
           </div>
 
@@ -136,7 +136,7 @@ export default function HomePage() {
                 Answer Questions
               </h3>
               <p className="text-slate-600">
-                Tell us about your trading experience, goals, and preferences through our guided questionnaire.
+                Tell us your experience level, preferred instruments, and what matters most — fees, regulation, or platform features.
               </p>
             </div>
 
@@ -148,7 +148,7 @@ export default function HomePage() {
                 Get Matched
               </h3>
               <p className="text-slate-600">
-                Our algorithm compares your needs with broker features, fees, and regulations to find the best matches.
+                Our scoring system compares your needs against broker features, pricing models, and regulatory status.
               </p>
             </div>
 
@@ -157,10 +157,10 @@ export default function HomePage() {
                 3
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                Compare & Choose
+                Compare &amp; Choose
               </h3>
               <p className="text-slate-600">
-                Review detailed comparisons, read expert reviews, and make an informed decision with confidence.
+                Review detailed breakdowns, read structured reviews, and compare brokers head-to-head before deciding.
               </p>
             </div>
           </div>
@@ -181,68 +181,51 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">
-              Find Brokers by Category
+              Browse by Category
             </h2>
+            <p className="mt-4 text-lg text-slate-600">
+              Curated broker lists based on what matters to you
+            </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <a href="/best/beginners" className="group p-6 bg-white rounded-xl border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="/best/best-low-cost-brokers" className="group p-6 bg-white rounded-xl border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200">
+              <div className="text-3xl mb-3">💰</div>
+              <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
+                Best Low-Cost
+              </h3>
+              <p className="mt-2 text-sm text-slate-600">
+                Lowest total trading cost for UK traders
+              </p>
+            </a>
+
+            <a href="/best/best-brokers-for-beginners" className="group p-6 bg-white rounded-xl border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200">
               <div className="text-3xl mb-3">📚</div>
               <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
                 Best for Beginners
               </h3>
               <p className="mt-2 text-sm text-slate-600">
-                User-friendly platforms with educational resources
+                Simple platforms with clear pricing
               </p>
             </a>
 
-            <a href="/best/day-trading" className="group p-6 bg-white rounded-xl border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200">
-              <div className="text-3xl mb-3">⚡</div>
+            <a href="/best/best-mt5-brokers" className="group p-6 bg-white rounded-xl border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200">
+              <div className="text-3xl mb-3">⚙️</div>
               <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
-                Best for Day Trading
+                Best MT5 Brokers
               </h3>
               <p className="mt-2 text-sm text-slate-600">
-                Low fees and advanced charting tools
+                MetaTrader 5 with algo and EA support
               </p>
             </a>
 
-            <a href="/best/forex" className="group p-6 bg-white rounded-xl border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200">
-              <div className="text-3xl mb-3">💱</div>
+            <a href="/best/best-regulated-brokers" className="group p-6 bg-white rounded-xl border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200">
+              <div className="text-3xl mb-3">🛡️</div>
               <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
-                Best for Forex
+                Best Regulated
               </h3>
               <p className="mt-2 text-sm text-slate-600">
-                Tight spreads and currency pair selection
-              </p>
-            </a>
-
-            <a href="/best/options" className="group p-6 bg-white rounded-xl border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200">
-              <div className="text-3xl mb-3">📊</div>
-              <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
-                Best for Options
-              </h3>
-              <p className="mt-2 text-sm text-slate-600">
-                Advanced options tools and analytics
-              </p>
-            </a>
-
-            <a href="/best/low-fees" className="group p-6 bg-white rounded-xl border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200">
-              <div className="text-3xl mb-3">💰</div>
-              <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
-                Lowest Fees
-              </h3>
-              <p className="mt-2 text-sm text-slate-600">
-                Commission-free trading and low costs
-              </p>
-            </a>
-
-            <a href="/best/international" className="group p-6 bg-white rounded-xl border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200">
-              <div className="text-3xl mb-3">🌍</div>
-              <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
-                International Trading
-              </h3>
-              <p className="mt-2 text-sm text-slate-600">
-                Global market access and multi-currency
+                FCA oversight and client protections first
               </p>
             </a>
           </div>
@@ -254,7 +237,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">
-              Our Commitment to You
+              How We Work
             </h2>
           </div>
 
@@ -269,10 +252,10 @@ export default function HomePage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                  Objective Reviews
+                  Structured Reviews
                 </h3>
                 <p className="text-slate-600">
-                  We use consistent criteria across all brokers including regulation, fees, platforms, and customer service.
+                  Every broker is assessed against the same criteria: regulation, pricing, platforms, asset coverage, and user feedback.
                 </p>
               </div>
             </div>
@@ -287,10 +270,10 @@ export default function HomePage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                  Regulated Only
+                  Regulation First
                 </h3>
                 <p className="text-slate-600">
-                  We only feature brokers regulated by top-tier authorities like FCA, SEC, ASIC, and CySEC.
+                  We prioritise FCA-regulated brokers and clearly flag where UK clients are served under offshore entities.
                 </p>
               </div>
             </div>
@@ -305,10 +288,10 @@ export default function HomePage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                  Full Transparency
+                  Affiliate Disclosure
                 </h3>
                 <p className="text-slate-600">
-                  We clearly disclose affiliate relationships and never let them influence our rankings or reviews.
+                  Some brokers listed pay affiliate commissions. These relationships never influence scoring, rankings, or review content.
                 </p>
               </div>
             </div>
@@ -317,16 +300,16 @@ export default function HomePage() {
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center">
                   <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                   </svg>
                 </div>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                  Always Updated
+                  Open Methodology
                 </h3>
                 <p className="text-slate-600">
-                  Our team continuously monitors broker changes to ensure you get the most current information.
+                  Our evaluation criteria and scoring logic are published in full. No black boxes.
                 </p>
               </div>
             </div>
@@ -334,11 +317,11 @@ export default function HomePage() {
 
           <div className="mt-12 p-6 bg-slate-50 rounded-xl border border-slate-200">
             <p className="text-sm text-slate-700 leading-relaxed">
-              <strong>Disclaimer:</strong> This site does not provide financial advice. 
-              All information is for educational purposes only. Trading involves risk of loss. 
-              Learn more about{" "}
+              <strong>Disclaimer:</strong> This site does not provide financial advice.
+              All information is for educational and comparison purposes only. CFDs and leveraged products carry a high risk of loss.
+              Read our{" "}
               <a href="/methodology" className="text-blue-600 underline hover:text-blue-700">
-                our methodology
+                methodology
               </a>{" "}
               and{" "}
               <a href="/disclosure" className="text-blue-600 underline hover:text-blue-700">

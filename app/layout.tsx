@@ -37,8 +37,11 @@ export default function RootLayout({
                 {/* Brand */}
                 <div className="md:col-span-1">
                   <div className="flex items-center gap-2 mb-4">
-                    <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
-                      FB
+                    <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 14L6 8L10 11L16 4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M13 4H16V7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
                     </div>
                     <span className="font-bold text-white">Find A Broker</span>
                   </div>

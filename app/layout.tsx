@@ -1,6 +1,20 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next";
 import Navigation from "@/components/Navigation";
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 import "./globals.css";
+
+export default function RootLayout({ children }) {
+    return (
+      <html lang="en">
+        <head> 
+        </head> 
+        <body className={styles.mainBody}>{children}</body>
+        <GoogleAnalytics gaId="G-0NMXJZHHXD" /> 
+      </html>
+    );
+);
 
 export const metadata: Metadata = {
   title: {

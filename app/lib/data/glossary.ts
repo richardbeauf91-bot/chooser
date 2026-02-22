@@ -261,7 +261,7 @@ export const glossary: GlossaryEntry[] = [
       "7) The order and speed of position closures depend on the broker’s internal risk rules and execution conditions.",
     whyThisMattersForTraders:
       "Margin calls are a practical limit on how long a leveraged position can be held during adverse price movements. Even if a trade thesis is still valid, insufficient margin can force an early exit. This makes margin calls especially relevant for volatile markets, overnight positions, and strategies that rely on wider stop-losses or longer holding periods.",
-    commonMisunderings:
+    commonMisunderstandings:
       "• A margin call is optional: in practice, brokers can close positions automatically without waiting for action.\n" +
       "• Margin calls always provide advance notice: some brokers move straight to stop-out if conditions deteriorate quickly.\n" +
       "• Only high leverage leads to margin calls: moderate leverage combined with volatility can also trigger them.\n" +
@@ -2639,7 +2639,7 @@ export const glossary: GlossaryEntry[] = [
       "8) The quality of disclosure varies depending on regulatory standards and broker practice.",
     whyThisMattersForTraders:
       "Risk disclosures help traders set realistic expectations. They highlight risks that are often underestimated, such as rapid losses during volatility, margin calls, and execution issues. Traders who ignore or misunderstand risk disclosures are more likely to over-leverage or misjudge worst-case outcomes, particularly when trading complex products.",
-    commonMisunderings:
+    commonMisunderstandings:
       "• Risk disclosures are legal formalities with no practical value: they often contain critical warnings.\n" +
       "• Disclosures mean risks are unlikely: they describe real and common outcomes.\n" +
       "• All brokers publish identical disclosures: clarity and detail vary widely.\n" +

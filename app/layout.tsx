@@ -1,7 +1,7 @@
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next";
 import Navigation from "@/components/Navigation";
-import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleTagManager } from '@next/third-parties/google'
 
 import "./globals.css";
 
@@ -20,14 +20,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children
-}: {
-  children: React.ReactNode;
-}) {
+}: {children: React.ReactNode;}) {
   return (
     <html lang="en">
       <body>
       <SpeedInsights />
-      <GoogleAnalytics gaId="G-0NMXJZHHXD" /> 
+      <GoogleTagManager gtmId="GTM-MTKQZK72" />
         <Navigation />
         <div className="min-h-screen flex flex-col">
           <main className="flex-1">{children}</main>

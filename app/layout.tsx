@@ -150,10 +150,6 @@ export default function RootLayout({
                     <a href="/sitemap.xml" className="hover:text-white transition-colors">
                       Sitemap
                     </a>
-                    <span>•</span>
-                    <a href="/rss" className="hover:text-white transition-colors">
-                      RSS
-                    </a>
                   </div>
                 </div>
               </div>

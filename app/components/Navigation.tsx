@@ -9,7 +9,7 @@ export default function Navigation() {
     { href: "/brokers", label: "Brokers" },
     { href: "/best", label: "Best Brokers" },
     { href: "/compare", label: "Compare" },
-    { href: "/chooser", label: "Broker Chooser" },
+    { href: "/chooser", label: "Find A Broker" },
     { href: "/reviews", label: "Reviews" },
     { href: "/learn", label: "Learn" },
     { href: "/glossary", label: "Glossary" }
@@ -25,9 +25,9 @@ export default function Navigation() {
             className="flex items-center gap-2 font-bold text-xl text-slate-900 hover:text-blue-600 transition-colors"
           >
             <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
-              BC
+              FB
             </div>
-            <span className="hidden sm:inline">Broker Chooser</span>
+            <span className="hidden sm:inline">Find A Broker</span>
           </a>
 
           {/* Desktop Navigation */}

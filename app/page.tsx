@@ -24,7 +24,7 @@ export default function HomePage() {
                 href="/chooser"
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
-                🎯 Use Broker Chooser
+                🎯 Use Find A Broker
               </a>
               <a
                 href="/best"
@@ -170,7 +170,7 @@ export default function HomePage() {
               href="/chooser"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl"
             >
-              Start Broker Chooser
+              Start Find A Broker
             </a>
           </div>
         </div>

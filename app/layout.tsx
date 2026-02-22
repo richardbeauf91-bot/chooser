@@ -4,8 +4,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Broker Chooser - Compare Trading Brokers & Find Your Perfect Platform",
-    template: "%s | Broker Chooser"
+    default: "Find A Broker - Compare Trading Brokers & Find Your Perfect Platform",
+    template: "%s | Find A Broker"
   },
   description:
     "Compare regulated trading brokers, read expert reviews, and find the best platform for your needs. Unbiased comparisons of fees, features, and regulations.",
@@ -35,9 +35,9 @@ export default function RootLayout({
                 <div className="md:col-span-1">
                   <div className="flex items-center gap-2 mb-4">
                     <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
-                      BC
+                      FB
                     </div>
-                    <span className="font-bold text-white">Broker Chooser</span>
+                    <span className="font-bold text-white">Find A Broker</span>
                   </div>
                   <p className="text-sm text-slate-400">
                     Independent broker comparisons and reviews to help you make informed trading decisions.
@@ -65,7 +65,7 @@ export default function RootLayout({
                     </li>
                     <li>
                       <a href="/chooser" className="hover:text-white transition-colors">
-                        Broker Chooser
+                        Find A Broker
                       </a>
                     </li>
                   </ul>
@@ -141,7 +141,7 @@ export default function RootLayout({
 
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
                   <p>
-                    © {new Date().getFullYear()} Broker Chooser. All rights reserved.
+                    © {new Date().getFullYear()} Find A Broker. All rights reserved.
                   </p>
                   <div className="flex gap-4">
                     <a href="/sitemap.xml" className="hover:text-white transition-colors">

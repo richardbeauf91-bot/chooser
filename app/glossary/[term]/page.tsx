@@ -132,7 +132,7 @@ export default async function GlossaryTermPage({ params }: Props) {
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-4">Related Concepts</h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            {entry.relatedConcepts.map(rc => {
+            {entry.relatedConcepts.map((rc: { term: string; whyItMatters: string }) => {
               const slug = findRelatedSlug(rc.term);
               return (
                 <div

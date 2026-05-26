@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { SITE_URL } from "@/lib/config";
 import { comparePages } from "@/lib/data/compare";
 import { brokers } from "@/lib/data/brokers";
+import { bestPages } from "@/lib/data/best";
 
 import { buildMetadata } from "@/lib/seo/metadata";
 import { buildArticleSchema } from "@/lib/seo/article";
@@ -44,6 +45,21 @@ export default async function ComparePage({ params }: Props) {
   const brokerA = brokers.find((b) => b.slug === page.aSlug);
   const brokerB = brokers.find((b) => b.slug === page.bSlug);
   if (!brokerA || !brokerB) notFound();
+
+  const relatedComparisons = comparePages
+    .filter(
+      (p) =>
+        `${p.aSlug}-vs-${p.bSlug}` !== slug &&
+        (p.aSlug === page.aSlug || p.bSlug === page.aSlug ||
+         p.aSlug === page.bSlug || p.bSlug === page.bSlug)
+    )
+    .slice(0, 4);
+
+  const relatedBestLists = bestPages.filter((p) =>
+    p.heroPicks.some(
+      (hp) => hp.brokerSlug === page.aSlug || hp.brokerSlug === page.bSlug
+    )
+  ).slice(0, 3);
 
   const breadcrumbItems = [
     { name: "Home", url: "/" },
@@ -241,6 +257,10 @@ export default async function ComparePage({ params }: Props) {
                 href={brokerA.affiliate.affiliateUrl}
                 text={brokerA.affiliate.primaryCtaText}
               />
+              <a href={`/reviews/${brokerA.slug}`} className="mt-3 flex items-center justify-center text-sm text-blue-600 hover:text-blue-700 font-medium">
+                Read full {brokerA.name} review
+                <svg className="ml-1 w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              </a>
             </div>
 
             {/* Broker B Card */}
@@ -272,6 +292,10 @@ export default async function ComparePage({ params }: Props) {
                 href={brokerB.affiliate.affiliateUrl}
                 text={brokerB.affiliate.primaryCtaText}
               />
+              <a href={`/reviews/${brokerB.slug}`} className="mt-3 flex items-center justify-center text-sm text-blue-600 hover:text-blue-700 font-medium">
+                Read full {brokerB.name} review
+                <svg className="ml-1 w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              </a>
             </div>
           </div>
         </section>
@@ -628,6 +652,54 @@ export default async function ComparePage({ params }: Props) {
               <p className="text-sm text-slate-600 leading-relaxed">
                 {page.methodology}
               </p>
+            </div>
+          </section>
+        )}
+
+        {/* Related Comparisons */}
+        {relatedComparisons.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-xl font-bold text-slate-900 mb-4">Related Comparisons</h2>
+            <div className="grid sm:grid-cols-2 gap-3">
+              {relatedComparisons.map((p) => {
+                const bA = brokers.find((b) => b.slug === p.aSlug);
+                const bB = brokers.find((b) => b.slug === p.bSlug);
+                return (
+                  <a
+                    key={`${p.aSlug}-${p.bSlug}`}
+                    href={`/compare/${p.aSlug}-vs-${p.bSlug}`}
+                    className="flex items-center justify-between bg-white border border-slate-200 rounded-lg px-4 py-3 hover:border-blue-400 hover:shadow-sm transition-all"
+                  >
+                    <span className="text-sm font-medium text-slate-800">
+                      {bA?.name ?? p.aSlug} vs {bB?.name ?? p.bSlug}
+                    </span>
+                    <svg className="w-4 h-4 text-blue-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </a>
+                );
+              })}
+            </div>
+          </section>
+        )}
+
+        {/* Related Best Lists */}
+        {relatedBestLists.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-xl font-bold text-slate-900 mb-4">Best Broker Lists</h2>
+            <div className="grid sm:grid-cols-2 gap-3">
+              {relatedBestLists.map((p) => (
+                <a
+                  key={p.slug}
+                  href={`/best/${p.slug}`}
+                  className="flex items-center justify-between bg-white border border-slate-200 rounded-lg px-4 py-3 hover:border-blue-400 hover:shadow-sm transition-all"
+                >
+                  <span className="text-sm font-medium text-slate-800">{p.title}</span>
+                  <svg className="w-4 h-4 text-blue-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              ))}
             </div>
           </section>
         )}

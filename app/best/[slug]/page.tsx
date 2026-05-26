@@ -154,7 +154,7 @@ export default async function BestPage({ params }: Props) {
                   </p>
                   {broker && (
                     <a
-                      href={`/brokers/${broker.slug}`}
+                      href={`/reviews/${broker.slug}`}
                       className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold text-sm"
                     >
                       Read Full Review
@@ -238,7 +238,7 @@ export default async function BestPage({ params }: Props) {
                 {page.topPicksOverview.map((pick) => (
                   <tr key={pick.brokerSlug} className="border-b border-slate-100 last:border-b-0">
                     <td className="p-4 font-semibold text-slate-900">
-                      <a href={`/brokers/${pick.brokerSlug}`} className="text-blue-600 hover:text-blue-700">
+                      <a href={`/reviews/${pick.brokerSlug}`} className="text-blue-600 hover:text-blue-700">
                         {pick.brokerName}
                       </a>
                     </td>

@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 
 import { SITE_URL } from "@/lib/config";
 import { brokers } from "@/lib/data/brokers";
+import { comparePages } from "@/lib/data/compare";
+import { bestPages } from "@/lib/data/best";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { buildArticleSchema } from "@/lib/seo/article";
 import { buildBreadcrumbs } from "@/lib/seo/breadcrumbs";
@@ -44,6 +46,14 @@ export default async function ReviewPage({ params }: Props) {
   const alternatives = brokers
     .filter((b) => b.slug !== broker.slug)
     .slice(0, 3);
+
+  const relatedComparisons = comparePages.filter(
+    (p) => p.aSlug === broker.slug || p.bSlug === broker.slug
+  );
+
+  const featuredInLists = bestPages.filter((p) =>
+    p.heroPicks.some((hp) => hp.brokerSlug === broker.slug)
+  );
 
   const breadcrumbItems = [
     { name: "Home", url: "/" },
@@ -301,6 +311,58 @@ export default async function ReviewPage({ params }: Props) {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {alternatives.map((b) => (
                 <BrokerCard key={b.slug} broker={b} />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* ── Related Comparisons ──────────────────────── */}
+        {relatedComparisons.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">
+              {broker.name} Comparisons
+            </h2>
+            <div className="grid sm:grid-cols-2 gap-3">
+              {relatedComparisons.map((p) => {
+                const opponent = p.aSlug === broker.slug ? p.bSlug : p.aSlug;
+                const opponentBroker = brokers.find((b) => b.slug === opponent);
+                return (
+                  <a
+                    key={`${p.aSlug}-${p.bSlug}`}
+                    href={`/compare/${p.aSlug}-vs-${p.bSlug}`}
+                    className="flex items-center justify-between bg-white border border-slate-200 rounded-lg px-4 py-3 hover:border-blue-400 hover:shadow-sm transition-all"
+                  >
+                    <span className="text-sm font-medium text-slate-800">
+                      {broker.name} vs {opponentBroker?.name ?? opponent}
+                    </span>
+                    <svg className="w-4 h-4 text-blue-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </a>
+                );
+              })}
+            </div>
+          </section>
+        )}
+
+        {/* ── Featured In Best Lists ────────────────────── */}
+        {featuredInLists.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">
+              {broker.name} in Our Best Broker Lists
+            </h2>
+            <div className="grid sm:grid-cols-2 gap-3">
+              {featuredInLists.map((p) => (
+                <a
+                  key={p.slug}
+                  href={`/best/${p.slug}`}
+                  className="flex items-center justify-between bg-white border border-slate-200 rounded-lg px-4 py-3 hover:border-blue-400 hover:shadow-sm transition-all"
+                >
+                  <span className="text-sm font-medium text-slate-800">{p.title}</span>
+                  <svg className="w-4 h-4 text-blue-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
               ))}
             </div>
           </section>

@@ -73,6 +73,11 @@ export default function RootLayout({
                       </a>
                     </li>
                     <li>
+                      <a href="/calculator" className="hover:text-white transition-colors">
+                        Fee Calculator
+                      </a>
+                    </li>
+                    <li>
                       <a href="/chooser" className="hover:text-white transition-colors">
                         Find A Broker
                       </a>

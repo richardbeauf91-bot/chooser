@@ -78,4 +78,5 @@ Plain-English definitions of key trading and brokerage terms.
 - [Methodology](https://findabroker.xyz/methodology): How brokers are evaluated, scored and ranked — fully transparent criteria.
 - [Affiliate Disclosure](https://findabroker.xyz/disclosure): How affiliate relationships work and why they do not influence rankings.
 - [Broker Directory](https://findabroker.xyz/brokers): Full list of all reviewed brokers with filtering by market, platform and availability.
+- [Broker Fee Calculator](https://findabroker.xyz/calculator): Interactive tool comparing true all-in trading costs (spread, commission, overnight financing) across 10 UK brokers by instrument and trade size.
 - [Find A Broker Tool](https://findabroker.xyz/chooser): Interactive questionnaire that matches traders to brokers based on their needs.

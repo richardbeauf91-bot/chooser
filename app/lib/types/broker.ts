@@ -63,6 +63,14 @@ export interface Broker {
   bestForTags: string[];
   riskNotes: string[];
   lastUpdated: string;
+  /** Client funds protected by FSCS up to £85k (direct FCA authorisation required) */
+  fscs: boolean;
+  /** Spread betting account available (tax-free trading in UK) */
+  spreadBetting: boolean;
+  /** Platform open for trading 24/7 including weekends (primarily crypto) */
+  trading24h: boolean;
+  /** Genuine 24/7 human customer support available */
+  support24h: boolean;
   affiliate: BrokerAffiliate;
   /** Full structured review content */
   review: BrokerReview;

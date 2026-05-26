@@ -1168,7 +1168,7 @@ export const brokers: Broker[] = [
         "Core pricing (raw spread + commission) is better value only at higher trading volumes.",
         "Platform interface, while functional, lacks some of the polish of newer brokers.",
       ],
-      regulation: "OANDA Europe Ltd is authorised and regulated by the FCA in the UK. The company has maintained regulatory status across multiple jurisdictions including the US (CFTC/NFA), Australia (ASIC), and Singapore (MAS) for decades. UK clients benefit from FSCS protection on eligible deposits up to £85,000 and full FCA consumer protections including negative balance protection for retail clients.",
+      regulation: "OANDA Europe Markets Limited is authorised and regulated by the FCA in the UK. The company has maintained regulatory status across multiple jurisdictions including the US (CFTC/NFA), Australia (ASIC), and Singapore (MAS) for decades. UK clients benefit from FSCS protection on eligible deposits up to £85,000 and full FCA consumer protections including negative balance protection for retail clients.",
       whenToAvoid: "If you want direct ownership of stocks or ETFs (not CFDs), or if you require cTrader, OANDA is not the right fit.",
       platforms: "OANDA offers its own OANDA Trade platform — available via desktop web and mobile (iOS/Android) — alongside MetaTrader 4 (MT4), MetaTrader 5 (MT5), and TradingView integration. This makes OANDA one of the more platform-flexible brokers, covering the MetaTrader ecosystem, TradingView charting, and its own proprietary interface.",
       costs: "OANDA offers two main pricing structures. Standard: variable spreads with no commission — EUR/USD typical spread around 1.0–1.2 pips. Core: tighter spreads plus a per-trade commission — better value for higher-volume traders. Both accounts charge overnight financing on positions held past the daily rollover. Spreads widen during off-peak hours and around major news events. There are no deposit or withdrawal fees from OANDA's side, though bank transfer fees may apply.",
@@ -1181,7 +1181,7 @@ export const brokers: Broker[] = [
         "Focus on forex means limited diversification across asset classes.",
       ],
       faq: [
-        { question: "Is OANDA regulated in the UK?", answer: "Yes — OANDA Europe Ltd is FCA authorised, with FSCS protection on eligible deposits." },
+        { question: "Is OANDA regulated in the UK?", answer: "Yes — OANDA Europe Markets Limited is FCA authorised, with FSCS protection on eligible deposits." },
         { question: "Is there a minimum deposit?", answer: "No — OANDA does not require a minimum deposit to open a live account." },
         { question: "Does OANDA offer spread betting?", answer: "Yes — UK clients can access spread betting for tax-efficient trading." },
         { question: "Which platforms does OANDA support?", answer: "OANDA supports its own OANDA Trade platform, MetaTrader 4 (MT4), MetaTrader 5 (MT5), and TradingView." },

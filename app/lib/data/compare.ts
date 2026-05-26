@@ -1152,7 +1152,7 @@ export const comparePages: ComparePage[] = [
     summary:
       "Both are FCA-regulated execution-focused brokers offering raw spread accounts with low per-lot commissions, MT4 and MT5 support, and no minimum deposit. The differences are marginal — Tickmill's Raw account commission is slightly lower; Pepperstone adds cTrader and a larger platform ecosystem.",
     verdict:
-      "For pure cost on MT4/MT5, Tickmill's Raw account ($3/side) is marginally cheaper than Pepperstone's Razor (~£3.50/lot). Pepperstone wins on platform breadth — cTrader, a larger trader community, and no minimum deposit. Both are excellent for active forex and CFD traders; the choice often comes down to platform preference.",
+      "For pure cost on MT4/MT5, Tickmill's Raw account ($3/side, $6 round-turn) is marginally cheaper than Pepperstone's Razor (~AU$7 / ~£3.50 round-turn equivalent). Pepperstone wins on platform breadth — cTrader, a larger trader community, and no minimum deposit. Both are excellent for active forex and CFD traders; the choice often comes down to platform preference.",
     lastUpdated: "2026-05-26",
     chooseAIf: [
       "You want the lowest available per-lot commission on a Raw/ECN-style account",
@@ -1196,7 +1196,7 @@ export const comparePages: ComparePage[] = [
           "Typical EUR/USD Razor spread from 0.0 pips",
           "No minimum deposit",
         ],
-        verdict: "Tickmill's Raw commission ($6 round-turn) is marginally lower than Pepperstone's Razor (~£7 equivalent). For high-volume MT4/MT5 traders this adds up; for lower volumes the difference is negligible.",
+        verdict: "Tickmill's Raw commission ($6 round-turn) is marginally lower than Pepperstone's Razor (~AU$7 / ~£3.50 round-turn equivalent). For high-volume MT4/MT5 traders this adds up; for lower volumes the difference is negligible.",
       },
       {
         title: "Platforms & Tools",

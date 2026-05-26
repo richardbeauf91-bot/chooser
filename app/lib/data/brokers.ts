@@ -63,7 +63,7 @@ export const brokers: Broker[] = [
         "Customer feedback — real user experiences (e.g. Trustpilot).",
         "Account features — demo, onboarding, deposits, and withdrawals.",
       ],
-      overview: "Capital.com is a multi-asset CFD and spread betting broker regulated in the UK. It offers a mix of forex, indices, commodities, and share CFDs via an intuitive platform. It's the best trading platform I've used in terms of UI — not because it has the most features, but because it's the most effortless to navigate. If you've been put off by more complex platforms, Capital.com is worth trying first.",
+      overview: "Out of every trading platform I've used, Capital.com's is the cleanest. Not the most powerful, not the most feature-rich — the most effortless to use. If you've opened something like IG or MetaTrader and found yourself hunting for where the actual trading happens, Capital.com is what that experience should feel like. It's CFD and spread betting only — no share ownership, no ISA — which is also why the platform can be this focused. Commission-free, FCA-regulated, and genuinely intuitive. The right first broker for most new traders, and a legitimate option for experienced ones who are tired of platforms that get in the way.",
       strengths: [
         "FCA-regulated and globally authorised.",
         "Simple platform with strong educational resources.",
@@ -162,7 +162,7 @@ export const brokers: Broker[] = [
         "Client feedback consistency.",
         "Suitability by trader type.",
       ],
-      overview: "Pepperstone is an execution-focused CFD and forex broker known for tight spreads and professional trading platforms. I've used cTrader on mobile and found it one of the cleaner experiences available — not flashy, but fast and easy to navigate. It doesn't try to be a beginner app and is better for it.",
+      overview: "Pepperstone's case rests almost entirely on execution cost and platform flexibility. The Razor account — raw spreads plus commission, open to anyone from day one without volume thresholds — is one of the most competitively priced structures available at the UK retail level. cTrader on mobile is clean and easy to navigate. What Pepperstone doesn't do is anything else: no shares, no ISA, no simplified beginner interface, no product breadth to speak of. That's a feature rather than a gap — the platform does what it's built for well. If you want to trade forex or CFDs actively and keep costs tight, it's hard to argue with. If you're still figuring out what you want, start somewhere with more range.",
       strengths: [
         "FCA regulated (UK entity).",
         "Razor account with low raw spreads.",
@@ -261,7 +261,7 @@ export const brokers: Broker[] = [
         "User feedback trends.",
         "Suitability by trader/investor type.",
       ],
-      overview: "IG is one of the UK's oldest and largest online brokers, regulated by the Financial Conduct Authority (FCA) and offering broad access to CFDs, spread betting, shares, ETFs, and more. It combines trading tools and longer-term investing features under one ecosystem. The onboarding was fast — they say minutes and it's accurate. The platform takes longer to get comfortable with, but that's because it's genuinely comprehensive rather than simplified. IG acquired tastytrade for approximately $1 billion, which gives their options offering serious depth — something most UK retail traders don't know.",
+      overview: "IG has the broadest product range of any broker reviewed here — forex, CFDs, spread betting, shares, ETFs, ISA, SIPP, and options via tastytrade, which IG acquired for approximately $1 billion. Most UK retail traders don't know that's what's powering the options offering, but it matters: this isn't a bolted-on feature, it's proper options infrastructure. The onboarding is fast — they say minutes and that's accurate. The platform itself takes longer to get comfortable with, and deliberately so; it's built for someone who already knows what they want rather than someone finding their feet. Biggest range, steepest learning curve. Those two things go together.",
       strengths: [
         "Broad market access (forex, indices, CFDs, shares, ETFs).",
         "FCA regulation and segregated client funds.",
@@ -361,7 +361,7 @@ export const brokers: Broker[] = [
         "User-reported experience (Trustpilot and specialist reviews).",
         "Suitability by trader type.",
       ],
-      overview: "Founded in 1989 and headquartered in London, CMC Markets is a well-established and FCA-regulated broker offering CFDs, forex, indices, commodities and spread betting to UK clients. The platform range — proprietary Next Generation, MetaTrader and TradingView — is broader than most. Options trading is now available. The share baskets feature is particularly well suited to investors rather than traders: thematic groupings of stocks that are easy to understand without needing to pick individual names.",
+      overview: "CMC has been around since 1989 and offers one of the broader platform lineups of any UK broker: proprietary Next Generation, MetaTrader, and TradingView in the same account. Options trading is available. The share baskets are worth specifically calling out — thematic groupings of stocks that make sense for someone thinking like an investor rather than a trader, and one of the more original features in UK retail brokerage. The pricing caveat worth knowing upfront: the Spectre account offers better conditions but is gated behind volume or balance thresholds. Unlike Pepperstone Razor, which anyone can open from day one, Spectre has to be earned. Most retail traders starting out will be on standard pricing, which is competitive but not the headline rate.",
       strengths: [
         "FCA regulation and segregated client funds.",
         "Broad product coverage — thousands of CFD instruments.",
@@ -461,7 +461,7 @@ export const brokers: Broker[] = [
         "Public user feedback patterns.",
         "Suitability for different trading styles.",
       ],
-      overview: "Plus500 is a UK-regulated online broker focused mainly on Contracts-for-Difference (CFDs), listed on the London Stock Exchange. The options offering is limited but covers what most retail traders are actually looking for — commodity options and the big names like Apple and Tesla. It's not the place to go for deep options strategy, but for straightforward access to options on instruments you already know, it works.",
+      overview: "Plus500 is publicly listed on the London Stock Exchange, which puts it in a small group of CFD brokers with mandatory financial disclosure obligations — a transparency layer most retail brokers don't have. The platform is simple by design: commission-free CFDs, clean interface, no MetaTrader, no advanced order types. Options are available but limited in range — commodities and the big-name equities (Apple, Tesla, major S&P names) rather than a deep multi-strategy options offering. For traders who want straightforward CFD access without complexity, that simplicity is the point. For traders who need professional tools, direct share ownership, or serious options infrastructure, look elsewhere.",
       strengths: [
         "FCA-regulated and publicly listed (London Stock Exchange) — offering transparency and oversight.",
         "Simple, clean trading platform across web and mobile.",
@@ -560,7 +560,7 @@ export const brokers: Broker[] = [
         "Asset range and product quality.",
         "Public user feedback and trust signals.",
       ],
-      overview: "eToro is a multi-asset online broker regulated in the UK by the FCA, founded in 2007. That longevity is worth something — it means the platform has survived market cycles, regulatory changes, and the crypto boom and bust without disappearing. The social trading community feels genuinely active. The tools are well designed for beginners: clear, well laid out, and easy to understand without needing to already know what you're doing.",
+      overview: "eToro has been running since 2007, which matters in a space full of platforms that launch with marketing budgets and disappear within a few years. The community is real and active — that's not something you can fake after this long. The tools are well designed for beginners in a way that doesn't feel condescending: clear layout, social feed that's useful rather than decorative, copy trading that works as an actual feature. It's not the broker for tight spreads or professional execution, and it doesn't try to be. It's the strongest on-ramp into markets for someone starting out, with the credibility of nearly two decades of operation behind it.",
       strengths: [
         "FCA-regulated and globally licensed broker.",
         "Multi-asset access: stocks, ETFs, crypto, CFDs and more.",
@@ -658,7 +658,7 @@ export const brokers: Broker[] = [
         "Asset coverage and global access.",
         "User feedback and trust signals.",
       ],
-      overview: "Interactive Brokers (IBKR) is a globally recognised broker with decades of history, used by professional traders, institutions, and sophisticated retail investors. Its UK entity is authorised and regulated by the FCA. It's genuinely very strong — the range, the pricing, the market access. The learning curve is steep, but that's by design rather than a failure of execution. If you know what you need and IBKR offers it, the infrastructure is hard to fault.",
+      overview: "IBKR is the strongest broker reviewed here on pure market access and pricing — 90+ markets, genuinely low fees, ISA and SIPP available, more asset classes than anyone else at the retail level. The platform complexity is real and intentional: Trader Workstation is built for people who already know exactly what they want. If your background is IG or CMC, the adjustment takes time. If you're coming from an institutional or professional environment, it'll feel familiar. Not a first broker. The right broker when you've outgrown everything else.",
       strengths: [
         "Very low trading fees and transparent pricing across global markets.",
         "Access to 90+ markets globally (stocks, ETFs, options, futures, forex, bonds).",
@@ -755,7 +755,7 @@ export const brokers: Broker[] = [
         "Public user feedback and trust signals.",
         "Suitability across trader types.",
       ],
-      overview: "XTB is a global online broker regulated in the UK by the Financial Conduct Authority (FCA). It offers access to forex, indices, commodities and share CFDs through a proprietary platform and MetaTrader 4 in some regions. The broker is often positioned between simple CFD-only platforms and advanced execution brokers.",
+      overview: "XTB sits in a useful gap: more capable than a pure beginner platform, less overwhelming than IG or IBKR. The xStation platform is well designed and the educational resources are among the better ones at this level — genuinely useful rather than SEO filler. The limitation at the cost-sensitive end is the absence of a raw spread account; there's no Razor-equivalent for high-volume traders, so active scalpers will find cheaper options elsewhere. For someone past the very beginning but not yet at the point of needing professional infrastructure, XTB is a reasonable fit that doesn't require a steep learning curve to extract value from.",
       strengths: [
         "FCA regulation and client fund segregation.",
         "Competitive spreads and transparent pricing.",
@@ -853,7 +853,7 @@ export const brokers: Broker[] = [
         "Public user feedback trends.",
         "Suitability for different trading styles.",
       ],
-      overview: "AvaTrade is a multi-platform broker offering CFD trading across a range of asset classes. It operates globally and holds regulatory licences including (for UK clients) oversight through a connected entity with European/Global licences — though UK FCA regulation status varies due to Brexit restructuring (it operates via European licences that may accept UK clients).",
+      overview: "AvaTrade has a reasonable multi-platform offering — MT4, MT5, and DupliTrade for copy trading — and its education resources are among the more structured of the mid-tier brokers. The thing to understand before opening an account is the regulatory position: AvaTrade doesn't hold direct FCA authorisation for UK clients the way IG, Pepperstone, or CMC do. UK traders typically access it under European licences, which means the FSCS safety net and full UK consumer protections don't apply. That's not a dealbreaker for everyone, but it's a material difference if things ever go wrong. If regulation equivalence to other UK brokers matters to you, check the specific entity your account will be held under before signing up.",
       strengths: [
         "Supports MetaTrader 4 (MT4) and MetaTrader 5 (MT5).",
         "Copy trading and social platforms (e.g., DupliTrade).",
@@ -951,7 +951,7 @@ export const brokers: Broker[] = [
         "Public user feedback and trust signals.",
         "Suitability for beginners vs advanced traders.",
       ],
-      overview: "FP Markets is an Australian-origin broker offering forex and CFD trading globally, often via local entities in regulated areas. It is known for tight raw spreads, MetaTrader support, and consistent execution quality.",
+      overview: "FP Markets competes on one thing: cost. The Razor account offers raw spreads on major pairs at a level that sits alongside Pepperstone in terms of pricing structure — tight spreads plus commission, no frills attached. If low-cost active forex and CFD trading is the goal, it's a credible option on that metric. The regulatory picture is different from FCA-regulated brokers: FP Markets operates through ASIC (Australia) and CySEC (Cyprus) entities, meaning UK clients typically don't hold accounts under direct FCA oversight. The protections that come with FCA authorisation — FSCS eligibility up to £85,000, UK consumer duty — don't apply in the same way. If the pricing is the draw but UK regulatory coverage matters to you, Pepperstone offers a genuinely comparable Razor account under full FCA authorisation.",
       strengths: [
         "Competitive raw spreads on forex major pairs (for Razor accounts).",
         "MetaTrader 4 & MetaTrader 5 available.",
@@ -1052,7 +1052,7 @@ export const brokers: Broker[] = [
         "Platform usability — mobile app and web interface",
         "Account features — minimums, fractional shares, deposits and withdrawals",
       ],
-      overview: "Trading 212 disrupted the UK retail investing market by removing dealing commissions on stocks and ETFs. Its clean mobile-first design and very low entry thresholds (£10 for ISA and Invest accounts; £1 for CFD) have attracted millions of UK investors. It offers three account types — Invest, ISA, and CFD — under one login, though CFD trading carries very different risks from the investing accounts.",
+      overview: "Trading 212 changed what UK investors expected on price. Before it arrived, zero-commission stock dealing in an ISA with no platform fee was not a given — now it's the benchmark everyone else gets measured against. The product is genuinely well designed for the use case: mobile-first, fractional shares, clean interface, low entry threshold. For someone building a long-term stock portfolio through an ISA, there is almost nothing cheaper in the UK market. The one thing to be clear-eyed about is the CFD section: it sits under the same login but it's a different product category entirely — leveraged derivatives, not investing. The app makes switching between them very easy, which isn't always a good thing for users who haven't thought clearly about which they're doing.",
       strengths: [
         "Genuinely zero commission on stocks and ETFs across its Invest and ISA accounts.",
         "Stocks & Shares ISA with no annual platform fee — rare at this price point.",
@@ -1154,7 +1154,7 @@ export const brokers: Broker[] = [
         "Product range — CFD and spread betting instruments available",
         "Account flexibility — no minimum deposit and account options",
       ],
-      overview: "OANDA occupies a well-established position in the UK forex market. Its long regulatory history, FCA authorisation, and broad platform support — including MT4, MT5, and TradingView — make it a reliable choice for active traders. It covers forex, indices, commodities, bonds, and share/ETF CFDs, though all equity exposure is derivative-based rather than direct ownership.",
+      overview: "OANDA has been operating since 1996, which in retail brokerage terms is genuinely old. The longevity matters: this is a broker that has been FCA regulated, kept client funds segregated, and stayed in business across several market cycles and regulatory regimes without incident. The platform isn't the flashiest — it lacks the polish of Capital.com or the professional depth of IBKR — but it's solid. The historical price data access is a real differentiator for traders who backtest; the depth of that dataset is unusual at the retail level. Platform options include MT4, MT5, TradingView, and the proprietary OANDA Trade interface. Forex is where OANDA is strongest. No direct share ownership — everything equity-related is via CFD.",
       strengths: [
         "One of the oldest and most reputable regulated forex brokers — operating since 1996.",
         "FCA regulated for UK clients with spread betting and CFD options.",
@@ -1257,7 +1257,7 @@ export const brokers: Broker[] = [
         "Pricing — commission structure and tiered pricing across account levels",
         "Account types — ISA, SIPP, and general investment account availability",
       ],
-      overview: "Saxo Bank stands apart from most retail brokers by the sheer breadth of what it offers. Stocks, ETFs, bonds, options, futures, forex, and CFDs — all within a single account structure, with ISA and SIPP available. Its SaxoTraderPRO platform is genuinely professional-grade. The trade-off is steeper entry-level pricing at the Classic tier, a custody fee that compounds over time, and a platform that is not appropriate for inexperienced traders.",
+      overview: "Saxo is the most complete retail broker reviewed here in terms of what you can actually own: stocks, ETFs, bonds, options, futures, forex, and CFDs — plus ISA and SIPP — in a single account. The options range is particularly strong, which puts it alongside IG (via tastytrade) as one of the few UK retail platforms where options aren't an afterthought. SaxoTraderPRO is a professional-grade platform in a way that most 'pro' retail interfaces aren't; it's comparable to what institutional desks use. The cost is the honest caveat: Classic-tier pricing includes a custody fee on equities and dealing costs that are genuinely expensive compared to zero-commission platforms. The pricing improves significantly at Platinum and VIP, but that's conditional on portfolio size. Not the right choice for someone starting out; very much the right choice for someone with a meaningful portfolio who wants everything in one place.",
       strengths: [
         "Broadest asset range of any retail broker reviewed — bonds, options, and futures alongside standard CFDs and equities.",
         "SaxoTraderPRO is one of the most capable trading platforms available to retail clients.",
@@ -1360,7 +1360,7 @@ export const brokers: Broker[] = [
         "Pricing structure — Classic vs Pro account cost comparison",
         "Asset coverage — forex pairs, indices, and CFD instrument range",
       ],
-      overview: "Tickmill occupies a clear position in the market: a low-cost, execution-focused FCA-regulated broker for active forex and CFD traders. Its Pro account pricing is among the most competitive available at the retail level. It does not try to be a multi-asset platform — it focuses on what it does well, which is tight execution at low cost.",
+      overview: "Tickmill doesn't have the brand recognition of IG or CMC, and it doesn't need it — it's built for traders who've already decided what they want and are now optimising for cost. The Pro account pricing (raw spreads from 0.0 on EUR/USD, $3 per side per lot commission) is genuinely competitive at the retail level. Onboarding was smooth when I tested it, and deposits and withdrawals ran without friction. The reason I specifically chose to open a Tickmill account rather than another MT5 broker is the Acuity Trading plugin — integrated news updates and trading signals available directly within the MT4/MT5 environment. It's the kind of edge that doesn't show up in a spec comparison but matters in practice. If you're trading forex and CFDs actively, want FCA regulation, and want MT4/MT5 with something useful bolted on, Tickmill is worth looking at seriously.",
       strengths: [
         "Raw account raw spreads (EUR/USD from 0.0 pips) with $3/side per lot commission — extremely competitive total cost.",
         "FCA regulated in the UK with client funds segregated.",

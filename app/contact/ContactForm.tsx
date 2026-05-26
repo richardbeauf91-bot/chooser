@@ -7,30 +7,24 @@ type Status = "idle" | "sending" | "success" | "error";
 export default function ContactForm() {
   const [status, setStatus] = useState<Status>("idle");
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("sending");
 
-    const form = e.currentTarget;
-    const data = Object.fromEntries(new FormData(form));
+    const formData = new FormData(e.currentTarget);
+    formData.append("access_key", "01cb87a6-814e-4a0f-bff6-7635db3a8e51");
 
-    try {
-      const res = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY,
-          ...data,
-        }),
-      });
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
 
-      if (res.ok) {
-        setStatus("success");
-        form.reset();
-      } else {
-        setStatus("error");
-      }
-    } catch {
+    const data = await res.json();
+
+    if (data.success) {
+      setStatus("success");
+      (e.target as HTMLFormElement).reset();
+    } else {
       setStatus("error");
     }
   }
@@ -46,12 +40,10 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white rounded-2xl border-2 border-slate-200 p-6 sm:p-8 space-y-5">
+    <form onSubmit={onSubmit} className="bg-white rounded-2xl border-2 border-slate-200 p-6 sm:p-8 space-y-5">
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
-          <label className="block text-sm font-semibold text-slate-700 mb-1.5">
-            Name
-          </label>
+          <label className="block text-sm font-semibold text-slate-700 mb-1.5">Name</label>
           <input
             type="text"
             name="name"
@@ -61,9 +53,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label className="block text-sm font-semibold text-slate-700 mb-1.5">
-            Email
-          </label>
+          <label className="block text-sm font-semibold text-slate-700 mb-1.5">Email</label>
           <input
             type="email"
             name="email"
@@ -75,9 +65,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label className="block text-sm font-semibold text-slate-700 mb-1.5">
-          Subject
-        </label>
+        <label className="block text-sm font-semibold text-slate-700 mb-1.5">Subject</label>
         <select
           name="subject"
           required
@@ -94,9 +82,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label className="block text-sm font-semibold text-slate-700 mb-1.5">
-          Message
-        </label>
+        <label className="block text-sm font-semibold text-slate-700 mb-1.5">Message</label>
         <textarea
           name="message"
           required
@@ -108,7 +94,7 @@ export default function ContactForm() {
 
       {status === "error" && (
         <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-4 py-3">
-          Something went wrong. Please try again or email us directly.
+          Something went wrong — please try again.
         </p>
       )}
 

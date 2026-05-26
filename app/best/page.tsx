@@ -244,13 +244,13 @@ export default function BestHubPage() {
               Find Your Perfect Broker
             </h2>
             <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-              Not sure which category fits you best? Use our broker chooser to get personalized recommendations.
+              Not sure which category fits you best? Use our Find A Broker to get personalized recommendations.
             </p>
             <a
               href="/chooser"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-lg bg-white text-slate-900 hover:bg-slate-100 transition-all duration-200 shadow-lg hover:shadow-xl"
             >
-              Use Broker Chooser
+              Use Find A Broker
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>

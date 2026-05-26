@@ -64,12 +64,12 @@ export default function MethodologyPage() {
 
       {/* Content */}
       <div className="max-w-3xl mx-auto px-6 sm:px-8 py-14">
-        {/* ── Section 1: Broker Chooser ── */}
+        {/* ── Section 1: Find A Broker ── */}
         <section>
           <div className="flex items-center gap-4 mb-6">
             <SectionNumber n={1} />
             <h2 className="text-2xl font-bold text-slate-900">
-              Broker Chooser Methodology
+              Find A Broker Methodology
             </h2>
           </div>
 

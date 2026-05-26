@@ -3,7 +3,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import ChooserClient from "./ChooserClient";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Broker Chooser - Find Your Perfect Trading Platform",
+  title: "Find A Broker - Find Your Perfect Trading Platform",
   description:
     "Answer a few questions to find brokers that match your trading needs. Personalised recommendations based on your location, experience, and priorities.",
   canonicalPath: "/chooser",

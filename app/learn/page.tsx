@@ -248,14 +248,14 @@ export default function LearnHubPage() {
               Ready to Find Your Broker?
             </h2>
             <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-              Use our broker chooser tool to get personalised recommendations
+              Use our Find A Broker tool to get personalised recommendations
               based on your needs and preferences.
             </p>
             <a
               href="/chooser"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-lg bg-white text-slate-900 hover:bg-slate-100 transition-all duration-200 shadow-lg hover:shadow-xl"
             >
-              Start Broker Chooser
+              Start Find A Broker
               <svg
                 className="ml-2 w-5 h-5"
                 fill="none"

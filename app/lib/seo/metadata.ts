@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/config";
 
 type MetaInput = {
   title: string;
@@ -11,6 +12,7 @@ export function buildMetadata({
   description,
   canonicalPath
 }: MetaInput): Metadata {
+  const absoluteUrl = `${SITE_URL}${canonicalPath}`;
   return {
     title,
     description,
@@ -20,13 +22,15 @@ export function buildMetadata({
     openGraph: {
       title,
       description,
-      url: canonicalPath,
-      type: "website"
+      url: absoluteUrl,
+      type: "website",
+      siteName: "Find A Broker"
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title,
-      description
+      description,
+      site: "@findabrokerxyz"
     }
   };
 }

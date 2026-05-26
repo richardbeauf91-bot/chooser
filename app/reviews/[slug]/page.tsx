@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
+import { SITE_URL } from "@/lib/config";
 import { brokers } from "@/lib/data/brokers";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { buildArticleSchema } from "@/lib/seo/article";
@@ -60,7 +61,7 @@ export default async function ReviewPage({ params }: Props) {
             buildBreadcrumbs(
               breadcrumbItems.map((b) => ({
                 name: b.name,
-                url: `https://example.com${b.url}`,
+                url: `${SITE_URL}${b.url}`,
               }))
             )
           ),
@@ -73,7 +74,7 @@ export default async function ReviewPage({ params }: Props) {
             buildArticleSchema({
               title: `${broker.name} Review`,
               description: broker.shortDescription,
-              url: `https://example.com/reviews/${broker.slug}`,
+              url: `${SITE_URL}/reviews/${broker.slug}`,
               dateModified: broker.lastUpdated,
             })
           ),

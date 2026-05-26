@@ -1,9 +1,33 @@
+import type { Metadata } from "next";
 import { brokers } from "@/lib/data/brokers";
 import BrokerCard from "@/components/BrokerCard";
+import { buildOrganizationSchema, buildWebSiteSchema } from "@/lib/seo/organization";
+import { SITE_URL } from "@/lib/config";
+
+export const metadata: Metadata = {
+  title: "Find A Broker — Compare FCA-Regulated Trading Brokers",
+  description: "Compare FCA-regulated trading brokers, read expert reviews, and find the best platform for your needs. Unbiased comparisons of fees, features, and regulation for UK retail traders.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "Find A Broker — Compare FCA-Regulated Trading Brokers",
+    description: "Compare FCA-regulated trading brokers, read expert reviews, and find the best platform for your needs.",
+    url: SITE_URL,
+    type: "website",
+    siteName: "Find A Broker"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Find A Broker — Compare FCA-Regulated Trading Brokers",
+    description: "Compare FCA-regulated trading brokers, read expert reviews, and find the best platform for your needs.",
+    site: "@findabrokerxyz"
+  }
+};
 
 export default function HomePage() {
   return (
     <div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(buildOrganizationSchema()) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(buildWebSiteSchema()) }} />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">

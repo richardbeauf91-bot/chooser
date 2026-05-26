@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/config";
 
 import { brokers } from "@/lib/data/brokers";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -62,7 +63,7 @@ export default async function BrokerPage({ params }: Props) {
             buildBreadcrumbs(
               breadcrumbItems.map((b) => ({
                 name: b.name,
-                url: `https://example.com${b.url}`,
+                url: `${SITE_URL}${b.url}`,
               }))
             )
           ),
@@ -75,7 +76,7 @@ export default async function BrokerPage({ params }: Props) {
             buildArticleSchema({
               title: broker.name,
               description: broker.shortDescription,
-              url: `https://example.com/brokers/${broker.slug}`,
+              url: `${SITE_URL}/brokers/${broker.slug}`,
               dateModified: broker.lastUpdated,
             })
           ),

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
+import { SITE_URL } from "@/lib/config";
 import { guides } from "@/lib/data/guides";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { buildArticleSchema } from "@/lib/seo/article";
@@ -59,7 +60,7 @@ export default async function GuidePage({ params }: Props) {
             buildArticleSchema({
               title: guide.title,
               description: guide.directAnswer.slice(0, 160),
-              url: `https://example.com/learn/${guide.slug}`,
+              url: `${SITE_URL}/learn/${guide.slug}`,
               dateModified: guide.lastUpdated,
             })
           ),

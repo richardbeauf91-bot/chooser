@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
+import { SITE_URL } from "@/lib/config";
 import { comparePages } from "@/lib/data/compare";
 import { brokers } from "@/lib/data/brokers";
 
@@ -60,7 +61,7 @@ export default async function ComparePage({ params }: Props) {
             buildBreadcrumbs(
               breadcrumbItems.map((b) => ({
                 name: b.name,
-                url: `https://example.com${b.url}`,
+                url: `${SITE_URL}${b.url}`,
               }))
             )
           ),
@@ -73,7 +74,7 @@ export default async function ComparePage({ params }: Props) {
             buildArticleSchema({
               title: page.title,
               description: page.summary,
-              url: `https://example.com/compare/${slug}`,
+              url: `${SITE_URL}/compare/${slug}`,
               dateModified: page.lastUpdated,
             })
           ),

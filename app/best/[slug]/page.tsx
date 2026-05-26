@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
+import { SITE_URL } from "@/lib/config";
 import { bestPages } from "@/lib/data/best";
 import { brokers } from "@/lib/data/brokers";
 
@@ -61,7 +62,7 @@ export default async function BestPage({ params }: Props) {
             buildBreadcrumbs(
               breadcrumbItems.map(b => ({
                 name: b.name,
-                url: `https://example.com${b.url}`
+                url: `${SITE_URL}${b.url}`
               }))
             )
           )
@@ -74,7 +75,7 @@ export default async function BestPage({ params }: Props) {
             buildArticleSchema({
               title: page.title,
               description: page.intro,
-              url: `https://example.com/best/${page.slug}`,
+              url: `${SITE_URL}/best/${page.slug}`,
               dateModified: page.lastUpdated
             })
           )

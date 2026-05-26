@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description:
     "Compare regulated trading brokers, read expert reviews, and find the best platform for your needs. Unbiased comparisons of fees, features, and regulations.",
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://findabroker.xyz"),
   alternates: {
     canonical: "/"
   }

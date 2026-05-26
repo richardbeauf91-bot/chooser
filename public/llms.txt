@@ -1,0 +1,80 @@
+# Find A Broker
+
+> Independent comparisons and expert reviews of FCA-regulated trading brokers for UK retail traders.
+
+Find A Broker (findabroker.xyz) is an independent broker comparison site focused on the UK retail trading market. All content covers FCA-regulated brokers unless explicitly stated otherwise. The site does not provide financial advice. Rankings and reviews are not influenced by affiliate relationships.
+
+## Broker Reviews
+
+Full reviews covering regulation, fees, platforms, instruments, pros and cons.
+
+- [Capital.com Review](https://findabroker.xyz/reviews/capital-com): FCA-regulated CFD and spread betting broker with an intuitive platform suited to beginners and cost-conscious traders.
+- [Pepperstone Review](https://findabroker.xyz/reviews/pepperstone): Execution-focused CFD and forex broker with tight raw spreads, MT4/MT5/cTrader access and FCA regulation.
+- [IG Review](https://findabroker.xyz/reviews/ig): One of the UK's largest and longest-established brokers, offering CFDs, spread betting, shares, ETFs, ISA and SIPP under FCA regulation.
+- [CMC Markets Review](https://findabroker.xyz/reviews/cmc-markets): FCA-regulated broker founded in 1989, known for powerful proprietary charting tools and thousands of CFD instruments.
+- [Plus500 Review](https://findabroker.xyz/reviews/plus500): FCA-regulated and London Stock Exchange-listed CFD broker with a simple proprietary platform and commission-free pricing.
+- [eToro Review](https://findabroker.xyz/reviews/etoro): FCA-regulated multi-asset platform combining stocks, ETFs, crypto and CFDs with social and copy-trading features.
+- [Interactive Brokers Review](https://findabroker.xyz/reviews/interactive-brokers): Professional-grade broker with access to 90+ markets, very low fees, ISA support and FCA regulation.
+- [XTB Review](https://findabroker.xyz/reviews/xtb): FCA-regulated broker with competitive spreads, an intuitive proprietary platform (xStation) and strong educational resources.
+- [AvaTrade Review](https://findabroker.xyz/reviews/avatrade): Multi-platform CFD broker with MT4, MT5 and copy trading — UK clients access via European/global licences.
+- [FP Markets Review](https://findabroker.xyz/reviews/fp-markets): Australian-origin broker known for tight raw spreads and MetaTrader support — UK clients trade under ASIC/CySEC regulation.
+
+## Best Broker Lists
+
+Curated broker picks by trading style and need.
+
+- [Best Low-Cost Brokers UK 2026](https://findabroker.xyz/best/best-low-cost-brokers): Brokers with the lowest total trading cost for UK retail traders.
+- [Best Brokers for Beginners UK 2026](https://findabroker.xyz/best/best-brokers-for-beginners): Simple platforms, clear pricing and strong educational resources for new traders.
+- [Best MT5 Brokers UK 2026](https://findabroker.xyz/best/best-mt5-brokers): MetaTrader 5 brokers with algo trading, EA support and FCA regulation.
+- [Best Regulated Brokers UK 2026](https://findabroker.xyz/best/best-regulated-brokers): Brokers with the strongest FCA oversight and client protection credentials.
+
+## Broker Comparisons
+
+Head-to-head breakdowns of fees, platforms, regulation and instruments.
+
+- [Capital.com vs Pepperstone](https://findabroker.xyz/compare/capital-com-vs-pepperstone): Beginner-friendly platform vs execution-focused raw spread broker.
+- [IG vs CMC Markets](https://findabroker.xyz/compare/ig-vs-cmc-markets): Two of the UK's most established CFD and spread betting brokers compared.
+- [Pepperstone vs IG](https://findabroker.xyz/compare/pepperstone-vs-ig): Raw spread ECN execution vs a full-service multi-asset broker.
+- [XTB vs Plus500](https://findabroker.xyz/compare/xtb-vs-plus500): xStation proprietary platform vs simple commission-free CFD trading.
+- [Interactive Brokers vs IG](https://findabroker.xyz/compare/interactive-brokers-vs-ig): Professional multi-market access vs a full UK retail broker with ISA and SIPP.
+
+## Educational Guides
+
+Practical guides helping traders evaluate and choose brokers.
+
+- [How to Choose a Forex Broker](https://findabroker.xyz/learn/how-to-choose-a-forex-broker): Avoid overpaying or taking unnecessary regulatory risk when picking an FX broker.
+- [How to Choose a CFD Broker](https://findabroker.xyz/learn/how-to-choose-a-cfd-broker): Understanding cost, leverage and risk when selecting a CFD provider.
+- [How to Choose a Stock Broker in the UK](https://findabroker.xyz/learn/how-to-choose-a-stock-broker-uk): Costs, ISA rules and safety considerations for UK equity investors.
+- [How to Choose a Crypto Broker](https://findabroker.xyz/learn/how-to-choose-a-crypto-broker): Security, fees and regulatory risk when trading crypto via a broker.
+- [How to Compare Trading Fees Properly](https://findabroker.xyz/learn/how-to-compare-trading-fees-properly): Why "low spreads" can mislead and how to calculate true total cost.
+- [How to Evaluate Broker Regulation](https://findabroker.xyz/learn/how-to-evaluate-broker-regulation): A practical framework for assessing regulatory quality across jurisdictions.
+- [Spread-Only vs Commission Accounts](https://findabroker.xyz/learn/how-to-choose-between-spread-only-and-commission-accounts): Which pricing model is actually cheaper for your trading style.
+- [How to Check If a Broker Is Safe](https://findabroker.xyz/learn/how-to-check-if-a-broker-is-safe): A due diligence checklist covering regulation, fund protection and red flags.
+- [How Broker Pricing Models Differ](https://findabroker.xyz/learn/how-broker-pricing-models-differ): Market maker, STP and ECN models explained clearly.
+- [How Margin and Leverage Really Work](https://findabroker.xyz/learn/how-margin-and-leverage-really-work): What leverage means in practice and how it affects broker choice.
+- [How Order Execution Works](https://findabroker.xyz/learn/how-order-execution-works): Execution types, slippage and why execution quality matters.
+- [How to Choose a Broker in the UK](https://findabroker.xyz/learn/how-to-choose-a-broker-in-the-uk): FCA rules, account types and cost considerations for UK traders.
+- [How to Choose a Broker for MT5](https://findabroker.xyz/learn/how-to-choose-a-broker-for-mt5): Execution quality, costs and restrictions when trading via MetaTrader 5.
+- [FCA vs Offshore Broker Regulation](https://findabroker.xyz/learn/how-broker-regulation-works-fca-vs-offshore): What FCA regulation actually provides versus offshore alternatives.
+
+## Glossary
+
+Plain-English definitions of key trading and brokerage terms.
+
+- [Spread](https://findabroker.xyz/glossary/spread): The difference between buy and sell price — a core trading cost.
+- [Leverage](https://findabroker.xyz/glossary/leverage): Trading with more exposure than your deposited capital.
+- [Margin](https://findabroker.xyz/glossary/margin): The deposit required to open and maintain a leveraged position.
+- [Margin Call](https://findabroker.xyz/glossary/margin-call): A broker's demand to deposit more funds or close positions.
+- [CFD](https://findabroker.xyz/glossary/cfd): Contract for Difference — a derivative product tracking an asset's price.
+- [Stop Loss](https://findabroker.xyz/glossary/stop-loss): An order to close a position automatically at a set loss level.
+- [Slippage](https://findabroker.xyz/glossary/slippage): The difference between expected and actual execution price.
+- [Stop-Out Level](https://findabroker.xyz/glossary/stop-out-level): The margin level at which a broker automatically closes positions.
+- [Overnight Financing](https://findabroker.xyz/glossary/overnight-financing): The cost of holding a leveraged position past market close.
+- [Negative Balance Protection](https://findabroker.xyz/glossary/negative-balance-protection): FCA-required protection preventing losses beyond deposited funds.
+
+## Site Information
+
+- [Methodology](https://findabroker.xyz/methodology): How brokers are evaluated, scored and ranked — fully transparent criteria.
+- [Affiliate Disclosure](https://findabroker.xyz/disclosure): How affiliate relationships work and why they do not influence rankings.
+- [Broker Directory](https://findabroker.xyz/brokers): Full list of all reviewed brokers with filtering by market, platform and availability.
+- [Find A Broker Tool](https://findabroker.xyz/chooser): Interactive questionnaire that matches traders to brokers based on their needs.

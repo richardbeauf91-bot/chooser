@@ -18,6 +18,10 @@ Full reviews covering regulation, fees, platforms, instruments, pros and cons.
 - [XTB Review](https://findabroker.xyz/reviews/xtb): FCA-regulated broker with competitive spreads, an intuitive proprietary platform (xStation) and strong educational resources.
 - [AvaTrade Review](https://findabroker.xyz/reviews/avatrade): Multi-platform CFD broker with MT4, MT5 and copy trading — UK clients access via European/global licences.
 - [FP Markets Review](https://findabroker.xyz/reviews/fp-markets): Australian-origin broker known for tight raw spreads and MetaTrader support — UK clients trade under ASIC/CySEC regulation.
+- [Trading 212 Review](https://findabroker.xyz/reviews/trading-212): FCA-regulated zero-commission stocks, ETFs and ISA app — one of the most popular investment platforms for UK retail investors.
+- [OANDA Review](https://findabroker.xyz/reviews/oanda): Established FCA-regulated forex and CFD broker since 1996, known for competitive spreads, no minimum deposit, and quality proprietary platform.
+- [Saxo Bank Review](https://findabroker.xyz/reviews/saxo-bank): Premium FCA-regulated multi-asset broker with stocks, bonds, ETFs, options, futures, forex, ISA and SIPP — built for sophisticated investors.
+- [Tickmill Review](https://findabroker.xyz/reviews/tickmill): FCA-regulated execution-focused forex and CFD broker with raw spreads, low commissions, and MT4/MT5 support for active traders.
 
 ## Best Broker Lists
 

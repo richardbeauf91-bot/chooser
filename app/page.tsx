@@ -88,7 +88,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900">10</div>
+              <div className="text-3xl font-bold text-slate-900">{brokers.length}</div>
               <div className="mt-1 text-sm text-slate-600">Brokers Reviewed</div>
             </div>
             <div className="text-center">

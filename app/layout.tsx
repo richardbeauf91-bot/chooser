@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://findabroker.xyz"),
   alternates: {
     canonical: "/"
+  },
+  other: {
+    "impact-site-verification": "7d7adc6f-7ef9-4b78-ad22-f09025ce2d56"
   }
 };
 

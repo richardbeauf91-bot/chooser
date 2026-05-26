@@ -40,6 +40,14 @@ export default function BestHubPage() {
       pages: bestPages.filter(p =>
         p.slug.includes('regulated')
       )
+    },
+    {
+      title: "By Asset & Account Type",
+      icon: "📊",
+      pages: bestPages.filter(p =>
+        p.slug.includes('crypto') ||
+        p.slug.includes('isa')
+      )
     }
   ];
 

@@ -92,10 +92,10 @@ export default function AboutPage() {
             </span>
           </h1>
           <p className="text-xl text-slate-300 leading-relaxed max-w-3xl">
-            Find A Broker exists because most broker comparison sites are funded
-            by the brokers they rank. We are not. Our reviews are based on
-            real accounts, verified regulation data, and fixed scoring criteria
-            — applied identically to every broker we cover.
+            Most broker comparison sites are run by marketing teams optimising
+            for affiliate commission. This one isn't. It's run by someone who
+            spent years inside fintech companies and got tired of watching bad
+            information send retail traders to the wrong broker.
           </p>
         </div>
       </section>
@@ -125,27 +125,32 @@ export default function AboutPage() {
         <h2 className="text-3xl font-bold text-slate-900 mb-6">Who we are</h2>
         <div className="bg-white rounded-2xl border-2 border-slate-200 p-8 space-y-5 text-slate-700 leading-relaxed">
           <p>
-            Find A Broker is run by a revenue operations and marketing
-            specialist with a fintech background. Having spent years inside
-            financial services companies — understanding how brokers acquire
-            customers, structure their pricing, and position their products —
-            the motivation for this site was simple: use that inside knowledge
-            to give retail traders the honest comparison most sites won't.
+            The honest answer is this site started out of irritation. I spent
+            years working in revenue operations inside fintech — the kind of
+            role where you sit between sales, marketing, and the product. Part
+            of that job was understanding how brokers acquire retail clients.
+            How comparison sites drive signups. How affiliate deals get
+            structured. Which metrics actually matter to a broker's commercial
+            team versus which ones go in the press release.
           </p>
           <p>
-            Most broker comparison sites are built by SEO teams, not people who
-            understand how financial products work or how brokers make money.
-            That background matters: knowing how brokers structure spreads,
-            what their affiliate incentive structures look like, and how
-            onboarding funnels are designed makes it much easier to spot
-            what is marketing and what is substance.
+            That background makes it pretty easy to look at a broker comparison
+            site and see what's going on underneath it. Rankings shaped by CPA
+            rates. "Best for beginners" lists pointing to high-spread brokers.
+            Review criteria quietly designed to favour whoever's paying the
+            biggest commission. Most of these sites are run by SEO teams who've
+            never thought about the difference between a market maker and an
+            STP broker.
           </p>
           <p>
-            We have opened real accounts with every broker we review and tested
-            them as a UK retail client would — from onboarding through to
-            execution. Our focus is the UK market and FCA regulation. We
-            explicitly flag where UK clients are served under non-FCA entities,
-            even when the brand is well-known.
+            This site is one person. I open the accounts, check the FCA
+            register, read the terms, and write the reviews. Coverage is slower
+            than sites with a team behind them — that's the trade-off. But
+            there's no internal pressure to rank a broker well because a
+            commercial deal depends on it. Every broker gets the same questions
+            asked about it, whether they're paying us or not. The ones that
+            look good in the rankings look good because they're actually better
+            for UK retail traders, not because they offered a better CPA.
           </p>
         </div>
       </section>
@@ -220,15 +225,17 @@ export default function AboutPage() {
             <div>
               <h2 className="text-xl font-bold text-amber-900 mb-3">Affiliate disclosure</h2>
               <p className="text-amber-800 leading-relaxed">
-                Some brokers on this site pay us a commission when a user signs
-                up via our links. These relationships are documented in full on
-                our{" "}
+                Some brokers pay a commission if you sign up via a link on this
+                site. That's documented in full on the{" "}
                 <a href="/disclosure" className="underline hover:text-amber-900 font-medium">
                   affiliate disclosure page
                 </a>
-                . Commercial relationships do not determine rankings, review
-                scores, or which brokers we cover. We apply the same criteria
-                to affiliate and non-affiliate brokers identically.
+                . It's the standard model for comparison sites and I'm not
+                going to pretend otherwise. What I will say is that the brokers
+                ranked highest are ranked highest because they're genuinely
+                better — not because they offered a higher commission rate.
+                Several brokers I rate well don't have an affiliate programme
+                at all.
               </p>
             </div>
           </div>

@@ -49,6 +49,13 @@ Head-to-head breakdowns of fees, platforms, regulation and instruments.
 - [Pepperstone vs IG](https://findabroker.xyz/compare/pepperstone-vs-ig): Raw spread ECN execution vs a full-service multi-asset broker.
 - [XTB vs Plus500](https://findabroker.xyz/compare/xtb-vs-plus500): xStation proprietary platform vs simple commission-free CFD trading.
 - [Interactive Brokers vs IG](https://findabroker.xyz/compare/interactive-brokers-vs-ig): Professional multi-market access vs a full UK retail broker with ISA and SIPP.
+- [Trading 212 vs eToro](https://findabroker.xyz/compare/trading-212-vs-etoro): Zero-commission stocks and ISA vs social copy-trading platform.
+- [OANDA vs Pepperstone](https://findabroker.xyz/compare/oanda-vs-pepperstone): Established forex broker with proprietary platform vs execution-focused raw spread ECN.
+- [Saxo Bank vs Interactive Brokers](https://findabroker.xyz/compare/saxo-bank-vs-interactive-brokers): Premium multi-asset platform vs lowest-cost professional broker for sophisticated investors.
+- [Tickmill vs Pepperstone](https://findabroker.xyz/compare/tickmill-vs-pepperstone): Two low-cost raw spread ECN brokers compared on fees, platforms and asset range.
+- [Coinbase vs Kraken](https://findabroker.xyz/compare/coinbase-vs-kraken): Two leading FCA-registered crypto exchanges compared on fees, security and ease of use.
+- [Coinbase vs Crypto.com](https://findabroker.xyz/compare/coinbase-vs-crypto-com): FCA-registered spot exchange vs feature-rich platform with Visa card and 350+ coins.
+- [Kraken vs Crypto.com](https://findabroker.xyz/compare/kraken-vs-crypto-com): Security-focused exchange with competitive pro fees vs ecosystem platform with card rewards.
 
 ## Educational Guides
 

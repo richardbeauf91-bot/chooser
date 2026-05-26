@@ -136,6 +136,6 @@ export const brokerFees: BrokerFeeData[] = [
     feeModel: "Classic (spread-only) or Pro (raw + commission)",
     spread: { eurusd: 1.60, gbpusd: 1.80, gold: 2.00, ftse100: 1.50, us500: 0.80 },
     overnightRate: 6.5,
-    commissionNote: "Pro account: raw spreads from 0.0 pips + $4/lot round-turn — much cheaper for active traders",
+    commissionNote: "Raw account: raw spreads from 0.0 pips + $6/lot round-turn ($3/side) — much cheaper for active traders",
   },
 ];

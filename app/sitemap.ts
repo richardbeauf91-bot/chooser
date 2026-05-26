@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/calculator`, priority: 0.9, changeFrequency: "monthly" as const, lastModified: now },
     { url: `${SITE_URL}/chooser`, priority: 0.7, changeFrequency: "monthly" as const, lastModified: now },
     { url: `${SITE_URL}/about`, priority: 0.7, changeFrequency: "yearly" as const, lastModified: now },
+    { url: `${SITE_URL}/contact`, priority: 0.5, changeFrequency: "yearly" as const, lastModified: now },
     { url: `${SITE_URL}/methodology`, priority: 0.6, changeFrequency: "yearly" as const, lastModified: now },
     { url: `${SITE_URL}/disclosure`, priority: 0.4, changeFrequency: "yearly" as const, lastModified: now },
     { url: `${SITE_URL}/privacy`, priority: 0.3, changeFrequency: "yearly" as const, lastModified: now },

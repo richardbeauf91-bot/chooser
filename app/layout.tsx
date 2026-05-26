@@ -16,6 +16,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/"
   },
+  openGraph: {
+    siteName: "Find A Broker",
+    type: "website",
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Find A Broker — Compare FCA-Regulated Trading Brokers" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@findabrokerxyz",
+    images: ["/opengraph-image.png"],
+  },
   other: {
     "impact-site-verification": "7d7adc6f-7ef9-4b78-ad22-f09025ce2d56"
   }

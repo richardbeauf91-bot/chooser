@@ -74,6 +74,7 @@ Plain-English definitions of key trading and brokerage terms.
 
 ## Site Information
 
+- [About](https://findabroker.xyz/about): Who runs Find A Broker — a fintech revenue operations specialist using industry knowledge to produce unbiased broker reviews.
 - [Methodology](https://findabroker.xyz/methodology): How brokers are evaluated, scored and ranked — fully transparent criteria.
 - [Affiliate Disclosure](https://findabroker.xyz/disclosure): How affiliate relationships work and why they do not influence rankings.
 - [Broker Directory](https://findabroker.xyz/brokers): Full list of all reviewed brokers with filtering by market, platform and availability.

@@ -124,6 +124,11 @@ export default function RootLayout({
                       </a>
                     </li>
                     <li>
+                      <a href="/about" className="hover:text-white transition-colors">
+                        About Us
+                      </a>
+                    </li>
+                    <li>
                       <a href="/contact" className="hover:text-white transition-colors">
                         Contact Us
                       </a>

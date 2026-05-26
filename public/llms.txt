@@ -23,6 +23,14 @@ Full reviews covering regulation, fees, platforms, instruments, pros and cons.
 - [Saxo Bank Review](https://findabroker.xyz/reviews/saxo-bank): Premium FCA-regulated multi-asset broker with stocks, bonds, ETFs, options, futures, forex, ISA and SIPP — built for sophisticated investors.
 - [Tickmill Review](https://findabroker.xyz/reviews/tickmill): FCA-regulated execution-focused forex and CFD broker with raw spreads, low commissions, and MT4/MT5 support for active traders.
 
+## Crypto Exchange Reviews
+
+Full reviews of FCA-registered crypto exchanges for UK users buying, selling and holding actual cryptocurrency.
+
+- [Coinbase Review](https://findabroker.xyz/reviews/coinbase): The UK's largest FCA-registered crypto exchange (CB Payments Ltd, FRN 900635) — beginner-friendly app plus Advanced Trade for cost-conscious active buyers.
+- [Kraken Review](https://findabroker.xyz/reviews/kraken): Established crypto exchange since 2011 with a strong security record — Kraken Pro offers competitive maker 0.25% / taker 0.40% base fees for UK spot traders.
+- [Crypto.com Review](https://findabroker.xyz/reviews/crypto-com): FCA-registered platform with 350+ cryptocurrencies, Visa card cashback, and staking — but very poor customer service reviews warrant careful consideration.
+
 ## Best Broker Lists
 
 Curated broker picks by trading style and need.
@@ -50,6 +58,7 @@ Practical guides helping traders evaluate and choose brokers.
 - [How to Choose a CFD Broker](https://findabroker.xyz/learn/how-to-choose-a-cfd-broker): Understanding cost, leverage and risk when selecting a CFD provider.
 - [How to Choose a Stock Broker in the UK](https://findabroker.xyz/learn/how-to-choose-a-stock-broker-uk): Costs, ISA rules and safety considerations for UK equity investors.
 - [How to Choose a Crypto Broker](https://findabroker.xyz/learn/how-to-choose-a-crypto-broker): Security, fees and regulatory risk when trading crypto via a broker.
+- [How to Choose a Crypto Exchange in the UK](https://findabroker.xyz/learn/how-to-choose-a-crypto-exchange-uk): FCA registration, fee structures (simple vs pro modes), custody risk and exchange comparisons for UK spot crypto buyers.
 - [How to Compare Trading Fees Properly](https://findabroker.xyz/learn/how-to-compare-trading-fees-properly): Why "low spreads" can mislead and how to calculate true total cost.
 - [How to Evaluate Broker Regulation](https://findabroker.xyz/learn/how-to-evaluate-broker-regulation): A practical framework for assessing regulatory quality across jurisdictions.
 - [Spread-Only vs Commission Accounts](https://findabroker.xyz/learn/how-to-choose-between-spread-only-and-commission-accounts): Which pricing model is actually cheaper for your trading style.
@@ -75,6 +84,12 @@ Plain-English definitions of key trading and brokerage terms.
 - [Stop-Out Level](https://findabroker.xyz/glossary/stop-out-level): The margin level at which a broker automatically closes positions.
 - [Overnight Financing](https://findabroker.xyz/glossary/overnight-financing): The cost of holding a leveraged position past market close.
 - [Negative Balance Protection](https://findabroker.xyz/glossary/negative-balance-protection): FCA-required protection preventing losses beyond deposited funds.
+- [Blockchain](https://findabroker.xyz/glossary/blockchain): The decentralised ledger technology underpinning Bitcoin, Ethereum and all cryptocurrencies.
+- [Crypto Wallet](https://findabroker.xyz/glossary/crypto-wallet): A tool that stores the cryptographic keys proving ownership of blockchain assets — custodial vs non-custodial explained.
+- [Hot Wallet vs Cold Wallet](https://findabroker.xyz/glossary/hot-wallet-cold-wallet): How exchanges store crypto online (hot) and offline (cold) and why the split matters for security.
+- [Staking](https://findabroker.xyz/glossary/staking): Locking cryptocurrency to earn network rewards — how exchanges handle it and what commission they charge.
+- [Altcoin](https://findabroker.xyz/glossary/altcoin): Any cryptocurrency other than Bitcoin — from Ethereum to speculative small-cap tokens.
+- [Spot Trading](https://findabroker.xyz/glossary/spot-trading): Buying actual cryptocurrency at the current market price — how it differs from CFD and derivatives trading.
 
 ## Site Information
 

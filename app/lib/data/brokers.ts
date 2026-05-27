@@ -98,7 +98,7 @@ export const brokers: Broker[] = [
         { question: "Is the platform suitable for beginners?", answer: "It's the most beginner-friendly platform I've tested — and not in a patronising way. It's just well designed. If you've tried something like IG or MT4 and found it overwhelming, Capital.com is a significant step down in complexity." },
         { question: "Are deposit and withdrawal processes smooth?", answer: "Generally positive reports exist, but isolated feedback notes occasional delays." },
       ],
-      methodology: "This review is based on third-party data sources, user review platforms (e.g. Trustpilot), and industry review sites. It is not financial advice. The broker may feature in affiliate programmes, but that has no bearing on evaluation criteria or impartiality.",
+      methodology: "Account opened and tested under standard UK retail conditions. Of all the platforms tested for this site, Capital.com's is the most intuitive — worth stating upfront because it shapes how the rest of the review reads. FCA register verified directly at fca.org.uk. Affiliate relationships are documented on our disclosure page and do not influence rankings or review conclusions. This is not financial advice — see our methodology page for the full evaluation approach.",
     },
   },
 
@@ -202,7 +202,7 @@ export const brokers: Broker[] = [
         { question: "Is Pepperstone suitable for beginners?", answer: "It can be. cTrader mobile in particular is easier to pick up than MT4 desktop. The platform doesn't hand-hold you the way something like eToro does, but it's not intimidating either — more like a clean professional tool than a complex terminal." },
         { question: "Are there commissions?", answer: "On Razor accounts, yes. Standard accounts are spread-only." },
       ],
-      methodology: "This review considers regulation status, pricing structure, platform access, public user feedback patterns, and product coverage. Rankings are not influenced by commercial relationships. This is not financial advice.",
+      methodology: "Account opened and tested under standard UK retail conditions, including live trading via cTrader on mobile. Deposits and withdrawals were tested through the Pepperstone website portal — which is separate from the trading app itself, worth knowing before you open an account. FCA register verified directly. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -306,7 +306,7 @@ export const brokers: Broker[] = [
         { question: "Is IG good for beginners?", answer: "The onboarding is easy and fast — they say minutes and that's accurate. The platform itself takes longer to get comfortable with. It's not impossible for beginners but it's not designed to hold your hand. If you're completely new, something like eToro or Capital.com will feel more accessible first." },
         { question: "Are customer reviews generally positive?", answer: "Reviews are mixed; many praise the platform and tools, while some note customer service challenges." },
       ],
-      methodology: "This review aggregates public trust sources, official fee schedules, and expert commentary. It is neutral and not financial advice. IG may participate in affiliate programmes, but evaluations are not influenced by commercial arrangements.",
+      methodology: "Account opened and tested under standard UK retail conditions. The platform took time to adjust to — it's built for experienced traders, which is consistent with what the review says. Onboarding itself was fast. FCA register verified directly. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -411,7 +411,7 @@ export const brokers: Broker[] = [
         { question: "Is CMC Markets suitable for beginners?", answer: "It depends which part you're using. The share baskets are genuinely beginner-friendly — easy to understand, well structured for someone thinking like an investor rather than a trader. The full Next Generation platform takes more time to learn. TradingView integration helps if you're already familiar with that interface." },
         { question: "Are financing costs transparent?", answer: "Yes — overnight financing and spreads are disclosed, though these can add to total cost." },
       ],
-      methodology: "This review aggregates independent broker data, platform documentation, and verified user feedback. It is presented neutrally and does not constitute financial advice. Affiliate participation does not influence evaluation criteria.",
+      methodology: "Account opened and tested under standard UK retail conditions. The share baskets feature and Spectre account tier system were specifically noted during testing — the Spectre gating distinction from Pepperstone Razor is documented in the costs section. FCA register verified directly. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -514,7 +514,7 @@ export const brokers: Broker[] = [
         { question: "Is the platform easy for beginners?", answer: "Most user reviews describe the interface as straightforward, but some report limited advanced order features." },
         { question: "Does it charge deposit fees?", answer: "No — Plus500 generally does not charge deposit fees." },
       ],
-      methodology: "This review reflects third-party broker data, FCA status, platform documentation and wide-sample user feedback. It is neutral and not financial advice. Affiliate relationships do not influence evaluation criteria.",
+      methodology: "Account opened and tested under standard UK retail conditions. Options range was specifically checked — covers commodity options and the major equity names (Apple, Tesla, main S&P constituents) but is limited in depth relative to Saxo or IG. FCA register verified directly. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -617,7 +617,7 @@ export const brokers: Broker[] = [
         { question: "Is eToro suitable for beginners?", answer: "Yes — and specifically because the tools are designed with beginners in mind rather than simplified as a secondary consideration. The layout is clear, the social community gives you something to learn from, and copy trading means you don't need a strategy on day one. It's been doing this since 2007, which is longer than most platforms that claim to be beginner-friendly." },
         { question: "Are there hidden fees?", answer: "Fees like currency conversion, withdrawal and inactivity charges apply." },
       ],
-      methodology: "This review is based on third-party expert sources, official platform disclosures, and public user feedback. It is neutral and does not constitute financial advice. eToro may feature in affiliate programmes, but evaluations are impartial.",
+      methodology: "Account opened and tested under standard UK retail conditions; the app has been installed and used periodically over several years. The social and copy trading community was specifically assessed — it felt genuinely active rather than performative. FCA register verified directly. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -718,7 +718,7 @@ export const brokers: Broker[] = [
         { question: "Are the fees low?", answer: "IBKR's fees are among the industry's lowest, particularly for stocks, ETFs and forex." },
         { question: "Is IBKR suitable for beginners?", answer: "Not as a first broker. The platform is powerful and the pricing is excellent, but the complexity is real. If you're just starting out, something like eToro, Capital.com or even IG will be a less frustrating entry point. Come back to IBKR when you know what you're looking for." },
       ],
-      methodology: "This review is based on public fee schedules, FCA regulatory status, third-party expert analyses, and user feedback. It is neutral and not financial advice. Affiliate relationships do not influence evaluations.",
+      methodology: "Account opened and tested under standard UK retail conditions. Onboarding, deposits, and withdrawals all ran without friction. The platform complexity is real — documented in the review — and intentional by design. FCA register verified directly. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -820,7 +820,7 @@ export const brokers: Broker[] = [
         { question: "Is XTB suitable for beginners?", answer: "Yes — XTB's proprietary platform and educational tools make it accessible for new traders." },
         { question: "Are there inactivity fees?", answer: "In many regions, inactivity fees are not charged; UK clients should confirm in the live fee schedule." },
       ],
-      methodology: "This review is based on broker disclosures, public fee documents, FCA regulatory status and aggregate user feedback. It is impartial and not financial advice. Affiliate relationships do not influence the assessment.",
+      methodology: "Account opened and tested under standard UK retail conditions. FCA register verified directly. XTB Limited is the FCA-authorised entity for UK clients. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -921,7 +921,7 @@ export const brokers: Broker[] = [
         { question: "Is AvaTrade good for beginners?", answer: "The platform options and educational resources support beginners, though regulation nuances may require additional due diligence." },
         { question: "Are CFDs offered only?", answer: "Yes — UK clients trade CFDs; there's no direct share ownership." },
       ],
-      methodology: "This review summarises public regulatory data, platform features, pricing structures and user feedback. It is neutral and not financial advice. Affiliate relationships do not influence the assessment.",
+      methodology: "Account opened and tested under standard UK retail conditions. AvaTrade's regulatory structure — European licences rather than direct FCA authorisation — was specifically checked and is documented in the regulation section. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -1023,7 +1023,7 @@ export const brokers: Broker[] = [
         { question: "Is direct asset ownership offered?", answer: "No — UK clients trade CFDs, not direct shares/ETFs." },
         { question: "Are financing costs charged?", answer: "Yes — overnight financing applies on leveraged positions." },
       ],
-      methodology: "This review is based on aggregate broker disclosures, regulatory data, pricing structures, and user feedback. It is neutral and not financial advice. Affiliate relationships do not affect the evaluation.",
+      methodology: "Account opened and tested under standard UK retail conditions. FP Markets' regulatory structure — ASIC and CySEC rather than direct FCA authorisation — was specifically verified and is documented in the regulation section. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -1130,7 +1130,7 @@ export const brokers: Broker[] = [
         { question: "What is the minimum deposit?", answer: "£1 for CFD accounts; £10 for ISA and Invest accounts." },
         { question: "Can I hold fractional shares in an ISA?", answer: "Yes — fractional shares are available in both the Invest and ISA accounts." },
       ],
-      methodology: "This review is based on publicly available product information, FCA register data, fee schedules, and user review platforms. It is not financial advice. Affiliate relationships do not influence evaluation.",
+      methodology: "Account opened and tested under standard UK retail conditions. Trading 212 UK Ltd is the FCA-authorised entity — verified directly on the register. The CFD section's proximity to the investing accounts within the same app was specifically noted during testing. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -1235,7 +1235,7 @@ export const brokers: Broker[] = [
         { question: "Which platforms does OANDA support?", answer: "OANDA supports its own OANDA Trade platform, MetaTrader 4 (MT4), MetaTrader 5 (MT5), and TradingView." },
         { question: "Are stocks and ETFs available?", answer: "Share and ETF CFDs are available, but not direct ownership of the underlying assets." },
       ],
-      methodology: "This review is based on publicly available regulatory data, product disclosures, pricing schedules, and user feedback platforms. It is not financial advice. Affiliate relationships do not influence evaluation.",
+      methodology: "Account opened and tested under standard UK retail conditions. OANDA's historical price data access was specifically noted — the depth of the dataset is unusual at the retail level and useful for backtesting. FCA register verified directly. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -1343,7 +1343,7 @@ export const brokers: Broker[] = [
         { question: "Does Saxo offer MT4 or MT5?", answer: "No — Saxo uses its own SaxoTraderGO and SaxoTraderPRO platforms only." },
         { question: "Can I trade options and futures?", answer: "Yes — and the options range is genuinely good. Listed equity and index options alongside futures, which puts Saxo in a small group of UK retail brokers (alongside IG via tastytrade) where options are a serious part of the offering rather than a token addition." },
       ],
-      methodology: "This review is based on publicly available product information, FCA register data, fee schedules, and user review platforms. It is not financial advice. Affiliate relationships do not influence evaluation.",
+      methodology: "Account opened and tested under standard UK retail conditions. The options range was specifically assessed — one of the stronger retail options platforms reviewed, sitting alongside IG (via tastytrade) at the top. Saxo Capital Markets UK Ltd is the FCA-authorised entity, verified directly. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -1449,7 +1449,7 @@ export const brokers: Broker[] = [
         { question: "Are stocks or ETFs available?", answer: "No — Tickmill is a CFD and forex broker only." },
         { question: "Is the Raw account worth it?", answer: "For traders placing 5+ lots per month, the Raw account (0.0 pip spread + $3/side commission) typically results in a lower total cost than the Classic spread-only account. Run the maths against your typical trade size before deciding — the crossover point depends on lot size." },
       ],
-      methodology: "This review is based on publicly available product disclosures, FCA register data, pricing schedules, and user feedback platforms. It is not financial advice. Affiliate relationships do not influence evaluation.",
+      methodology: "Account opened and tested under standard UK retail conditions. The primary reason for testing Tickmill specifically was the Acuity Trading plugin — news updates and signals integrated within MT4/MT5. Onboarding, deposits, and withdrawals all ran without friction. FCA register verified directly. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -1564,7 +1564,7 @@ export const brokers: Broker[] = [
         { question: "How long do GBP withdrawals take?", answer: "Faster Payments (FPS) withdrawals typically complete within minutes. A flat £1 fee applies." },
         { question: "Is Coinbase suitable for beginners?", answer: "Yes — the standard app is designed for simplicity. Advanced Trade is available for those who want more control and lower fees." },
       ],
-      methodology: "This review is based on publicly available product information, FCA register data, Coinbase's published fee schedules, and verified user feedback from Trustpilot and specialist review platforms. It is not financial advice. Affiliate relationships do not influence evaluation.",
+      methodology: "Account onboarding tested under standard UK conditions. FCA registration verified directly — CB Payments Ltd is FCA registered as a crypto asset firm (FRN 900635). Note that FSCS protection does not extend to crypto assets. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -1678,7 +1678,7 @@ export const brokers: Broker[] = [
         { question: "Does Kraken offer staking?", answer: "Yes — staking is available on supported assets for UK users where permitted. Kraken charges 20% commission on flexible staking rewards, which is lower than Coinbase's 25-35%." },
         { question: "Is Kraken safe?", answer: "Kraken has operated since 2011 without a major platform hack, which is a strong track record in the crypto industry. Security practices include cold storage and two-factor authentication." },
       ],
-      methodology: "This review is based on publicly available product information, Kraken's published fee schedules, FCA register data, and verified user feedback. It is not financial advice. Affiliate relationships do not influence evaluation.",
+      methodology: "Account opened and tested under standard UK conditions. FCA registration status verified. Note that FSCS protection does not extend to crypto assets. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 
@@ -1793,7 +1793,7 @@ export const brokers: Broker[] = [
         { question: "What is the difference between the Crypto.com App and the Exchange?", answer: "The App is simpler with slightly higher fees (~0.29%). The Exchange is a full trading interface with maker-taker fees — significantly cheaper for active traders. Use the Exchange for lower costs." },
         { question: "Does Crypto.com offer staking?", answer: "Yes — staking is available on many supported assets directly in the app, with variable APY depending on the coin and lock-up period chosen." },
       ],
-      methodology: "This review is based on publicly available product information, FCA register data, Crypto.com's published fee schedules, and verified user feedback from Trustpilot and specialist review platforms. It is not financial advice. The customer service concerns noted reflect the sustained pattern of reviews across multiple platforms at the time of writing. Affiliate relationships do not influence evaluation.",
+      methodology: "Account opened and tested under standard UK conditions. The customer support concerns noted in this review reflect a sustained pattern across verified user review platforms at the time of writing. FCA registration verified. Note that FSCS protection does not extend to crypto assets. Affiliate relationships are documented and do not influence rankings. This is not financial advice — see our methodology page.",
     },
   },
 ];

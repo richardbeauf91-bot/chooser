@@ -150,7 +150,7 @@ export default async function ReviewPage({ params }: Props) {
         {/* ── 2. Who This Review Is For ────────────────── */}
         <section className="bg-white rounded-xl border border-slate-200 p-8 mb-8">
           <h2 className="text-2xl font-bold text-slate-900 mb-4">
-            Who This Review Is For
+            Who this review is for
           </h2>
           <p className="text-slate-700 mb-4">
             This review is for UK-based traders and investors who:
@@ -161,24 +161,6 @@ export default async function ReviewPage({ params }: Props) {
                 <svg className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        {/* ── 3. Evaluation Criteria ───────────────────── */}
-        <section className="bg-white rounded-xl border border-slate-200 p-8 mb-8">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">
-            Evaluation Criteria
-          </h2>
-          <p className="text-slate-700 mb-4">
-            We assessed {broker.name} on:
-          </p>
-          <ul className="space-y-2">
-            {review.evaluationCriteria.map((item) => (
-              <li key={item} className="flex items-start gap-3 text-slate-700">
-                <div className="w-2 h-2 rounded-full bg-slate-400 flex-shrink-0 mt-2"></div>
                 <span>{item}</span>
               </li>
             ))}
